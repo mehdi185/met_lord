@@ -30,7 +30,7 @@ vless://36a8a97b-9380-4cfb-9248-4f71a09f454c@104.16.60.8:2083?encryption=none&se
 vless://1a7effee-2410-4684-92c7-30eee2867f7b@www.speedtest.net:8080?encryption=none&security=none&type=ws&host=xn--047h.iman-v2ray.sbs.&path=%2F%40V_2rayngVpn#%F0%9F%94%92%20vless%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F
 vless://14d396c8-740f-4ac3-9ce2-aa7652428ed0@104.21.20.102:80?encryption=none&security=none&type=ws&host=vmessorg1.xn--54qv00ez5ar77g.co.&path=%2FTelegram%3A%40vmessorg-Telegram%3A%40vmessorg-Telegram%3A%40vmessorg#%F0%9F%94%92%20vless%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F
 vless://75a6d62e-a371-41c8-ab53-8c6e6e8201fb@www.speedtest.net:2053?encryption=none&security=tls&sni=6d1.narnino.org&type=grpc#%F0%9F%94%92%20vless%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F
-warp://auto#WarpInWarp ⭐️&&detour=warp://auto#Warp 🇮🇷
-warp://188.114.98.180:7281?ifp=5-10#WiW-🟢&&detour=warp://188.114.97.126:7281?ifp=5-10#WARP-🟢
-warp://188.114.97.126:7281?ifp=5-10#WiW-🔵&&detour=warp://188.114.98.180:7281?ifp=5-10#WARP-🔵
+warp://auto#🇮🇷vless🇮🇷 ⭐️&&detour=warp://auto#🇮🇷vless🇮🇷
+warp://188.114.98.180:7281?ifp=5-10#WiW-🇮🇷&&detour=warp://188.114.97.126:7281?ifp=5-10#WARP-🇮🇷
+warp://188.114.97.126:7281?ifp=5-10#WiW-🇮🇷&&detour=warp://188.114.98.180:7281?ifp=5-10#WARP-🇮🇷
 
