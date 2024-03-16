@@ -1,13 +1,7 @@
 #profile-title: base64:8J+GkyBCYXJyeS1mYXIgfCBXYXJwIPCfjJA=
 #profile-update-interval: 1
-
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 
-warp://auto#✅vless✅ ⭐️&&detour=warp://auto#✅vless✅
-warp://188.114.98.180:7281?ifp=5-10#✅vless✅
-warp://188.114.97.126:7281?ifp=5-10#✅vless✅
-warp://188.114.97.126:7281?ifp=5-10#✅vless✅
-warp://188.114.98.180:7281?ifp=5-10#✅vless✅
 
 vless://66dfb5f2-1c63-4d82-94a7-0915bedd93b9@knocked.aurorainiceland.com:443?encryption=none&security=tls&sni=knocked.aurorainiceland.com&type=ws&host=knocked.aurorainiceland.com&path=%2Fnimws#%F0%9F%94%92%20vless%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F
 vless://75a6d62e-a371-41c8-ab53-8c6e6e8201fb@104.18.202.232:2053?encryption=none&security=tls&sni=6d1.narnino.org&type=grpc#%F0%9F%94%92%20vless%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F
@@ -38,4 +32,9 @@ vless://1a7effee-2410-4684-92c7-30eee2867f7b@www.speedtest.net:8080?encryption=n
 vless://14d396c8-740f-4ac3-9ce2-aa7652428ed0@104.21.20.102:80?encryption=none&security=none&type=ws&host=vmessorg1.xn--54qv00ez5ar77g.co.&path=%2FTelegram%3A%40vmessorg-Telegram%3A%40vmessorg-Telegram%3A%40vmessorg#%F0%9F%94%92%20vless%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F
 vless://75a6d62e-a371-41c8-ab53-8c6e6e8201fb@www.speedtest.net:2053?encryption=none&security=tls&sni=6d1.narnino.org&type=grpc#%F0%9F%94%92%20vless%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F
 
+warp://auto#✅vless✅ ⭐️&&detour=warp://auto#✅vless✅
+warp://188.114.98.180:7281?ifp=5-10#✅vless✅
+warp://188.114.97.126:7281?ifp=5-10#✅vless✅
+warp://188.114.97.126:7281?ifp=5-10#✅vless✅
+warp://188.114.98.180:7281?ifp=5-10#✅vless✅
 
