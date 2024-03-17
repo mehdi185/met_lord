@@ -1,5 +1,9 @@
 #profile-update-interval: 1
-https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Warp_sub.txt
+#profile-title: base64:8J+GkyBCYXJyeS1mYXIgfCBXYXJwIPCfjJA=
+#profile-update-interval: 1
+warp://auto#WarpInWarp ⭐️&&detour=warp://auto#Warp 🇮🇷
+warp://162.159.192.199:943?ifp=5-10#WiW-🟢&&detour=warp://188.114.96.171:943?ifp=5-10#WARP-🟢
+warp://188.114.96.171:943?ifp=5-10#WiW-🔵&&detour=warp://162.159.192.199:943?ifp=5-10#WARP-🔵
 
 vless://f19c3168-c641-43be-b979-9a11c4583e9a@162.159.134.234:80?security=&type=ws&path=Telegram:@Moft_Vpn-Telegram:@Moft_Vpn-Telegram:@Moft_Vpn-Telegram:@Moft_Vpn-Telegram:@Moft_Vpn-Telegram&host=Moft_Vpn.xn--85-pv2cl2k5x3fipr.org.&encryption=none#%E2%9C%85vless%E2%9C%85
 vless://---ipV2Ray---@www.speedtest.net:80?security=&type=ws&path=/tel-ipV2Ray--tel-ipV2Ray--tel-ipV2Ray--tel-ipV2Ray--tel-ipV2Ray--tel-ipV2Ray--tel-ipV2Ray--tel-ipV2Ray?ed%3D2048&host=ipv2ray.%E5%85%8D%E8%B4%B9%E4%B8%8A%E7%BD%9169.site.&encryption=none#%20%E2%9C%85vless%E2%9C%85
