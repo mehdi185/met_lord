@@ -16,7 +16,8 @@ vmess://eyJhZGQiOiJhY2Nlc3MuY2RuLXRnanUub3JnIiwiYWlkIjoiMCIsImhvc3QiOiJhY2Nlc3Mu
 vless://5b653b1c-dc8b-402d-ae67-f3d039d61f20@104.21.89.121:8443?security=tls&sni=vpnproxy66.v2panel.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=vpnproxy66.v2panel.workers.dev&encryption=none#%F0%9F%94%92vless%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F
 vmess://eyJhZGQiOiJodHRwLmNkbi10Z2p1Lm9yZyIsImFpZCI6IjAiLCJob3N0IjoiaHR0cC5jZG4tdGdqdS5vcmciLCJpZCI6Ijc0NTNhNzk2LTE1OWQtNDNhOS1kZGM5LTIwY2VhZDc4ODZhOCIsIm5ldCI6IndzIiwicGF0aCI6Ii90d29zIiwicG9ydCI6IjIwODMiLCJwcyI6IvCflJJ2bGVzc/Cfj7TigI3imKDvuI8iLCJzY3kiOiJhdXRvIiwic25pIjoiaHR0cC5jZG4tdGdqdS5vcmciLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
 vless://39c94e86-05be-4291-905d-b8ca1e387c11@104.16.4.103:8880?security=&type=ws&path=/Eahb-2lpTPQeMnUC?ed%3D2048&host=wOrkeR-Novin.bOgiy44254.WoRKErS.dEV&encryption=none#%F0%9F%94%92vless%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F
-warp://188.114.97.126:7281?ifp=5-10#wvless
 vless://47e80a2e-3629-45b6-8b38-0edc7164dd9a@104.21.56.202:80?security=&type=ws&path=vless-ws/?ed%3D2048&host=hello-world-red-feather-78a7.basay80682.worKErS.DEV&encryption=none#%F0%9F%94%92vless%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F
 vless://47e80a2e-3629-45b6-8b38-0edc7164dd9a@172.67.187.219:80?security=&type=ws&path=vless-ws/?ed%3D2048&host=hello-world-red-feather-78a7.basay80682.worKErS.DEV&encryption=none#%F0%9F%94%92vless%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F
-warp://188.114.98.180:7281?ifp=5-10#wvless
+warp://auto#vless-w &&detour=warp://auto#vless✅ 
+warp://188.114.99.197:908?ifp=5-10#wvless1✅-✅&&detour=warp://188.114.97.225:908?ifp=5-10#WARP-✅
+warp://188.114.97.225:908?ifp=5-10#wless2✅-✅&&detour=warp://188.114.99.197:908?ifp=5-10#WARP-✅
