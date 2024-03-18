@@ -1,6 +1,4 @@
 #profile-update-interval: 1
-#profile-title: base64:8J+GkyBCYXJyeS1mYXIgfCBXYXJwIPCfjJA=
-warp://auto#always works but slow!&&detour=warp://auto#Warp 🇮🇷
 vless://fca3181c-8db7-5d8a-9d5c-d288033c92b7@cf.edocetion.com:2086?encryption=none&security=none&type=ws&host=dodd.persianoxy.lat&path=%2Fone#%E2%9C%85vless%E2%9C%85
 vless://f2e4f5b1-a32d-4ac7-b7dd-fde48f370010@104.21.56.202:2086?encryption=none&security=none&type=ws&host=worker-noisy-rain-b1f9.fekeh83274.workers.DEV&path=vless-ws%2F%3Fed%3D2048#%F0%9F%94%92%20Vl%20%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%20
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIuKchXZsZXNz4pyFIiwNCiAgImFkZCI6ICJzdGF0aWMuZWRvY2V0aW9uLmNvbSIsDQogICJwb3J0IjogIjg4ODAiLA0KICAiaWQiOiAiZmNhMzE4MWMtOGRiNy01ZDhhLTlkNWMtZDI4ODAzM2M5MmI3IiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJ5ZWsuYW50b255ODA4LmxhdCIsDQogICJwYXRoIjogIi93ZWJzb2NrZXQiLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIg0KfQ==
