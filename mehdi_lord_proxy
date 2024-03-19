@@ -1,8 +1,4 @@
-#profile-title: base64:8J+GkyBCYXJyeS1mYXIgfCBXYXJwIPCfjJA=
 #profile-update-interval: 1
-warp://auto#🇮🇷always work but slow🇮🇷 &&detour=warp://auto#🔍always work but slow 🇮🇷
-warp://188.114.98.230:3138?ifp=5-10#always work but slow 1🔍-&&detour=warp://188.114.98.83:3138?ifp=5-10#🔍always work but slow 3🔍
-warp://188.114.98.83:3138?ifp=5-10#🔍always work but slow 2🔍-&&detour=warp://188.114.98.230:3138?ifp=5-10#🔍always work but slow 4🔍
 vless://fa74c6c6-5e0a-43f6-9997-ed0e10dc10bc@162.159.36.227:80?security=&type=ws&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg&host=vmessorg1.xn--54qv00ez5ar77g.co.&encryption=none#vless%E2%9C%85
 vless://fa74c6c6-5e0a-43f6-9997-ed0e10dc10bc@172.64.130.87:80?security=&type=ws&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg&host=vmessorg1.xn--54qv00ez5ar77g.co.&encryption=none#vless%E2%9C%85
 vless://fa74c6c6-5e0a-43f6-9997-ed0e10dc10bc@172.67.117.193:80?security=&type=ws&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg&host=vmessorg1.xn--54qv00ez5ar77g.co.&encryption=none#vless%E2%9C%85
