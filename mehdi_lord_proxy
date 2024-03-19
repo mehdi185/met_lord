@@ -3,7 +3,6 @@
 warp://auto#🇮🇷always work but slow🇮🇷 &&detour=warp://auto#🔍always work but slow 🇮🇷
 warp://188.114.98.230:3138?ifp=5-10#always work but slow 1🔍-&&detour=warp://188.114.98.83:3138?ifp=5-10#🔍always work but slow 3🔍
 warp://188.114.98.83:3138?ifp=5-10#🔍always work but slow 2🔍-&&detour=warp://188.114.98.230:3138?ifp=5-10#🔍always work but slow 4🔍
-
 vless://fa74c6c6-5e0a-43f6-9997-ed0e10dc10bc@162.159.36.227:80?security=&type=ws&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg&host=vmessorg1.xn--54qv00ez5ar77g.co.&encryption=none#vless%E2%9C%85
 vless://fa74c6c6-5e0a-43f6-9997-ed0e10dc10bc@172.64.130.87:80?security=&type=ws&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg&host=vmessorg1.xn--54qv00ez5ar77g.co.&encryption=none#vless%E2%9C%85
 vless://fa74c6c6-5e0a-43f6-9997-ed0e10dc10bc@172.67.117.193:80?security=&type=ws&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg&host=vmessorg1.xn--54qv00ez5ar77g.co.&encryption=none#vless%E2%9C%85
@@ -78,7 +77,6 @@ vless://fca3181c-8db7-5d8a-9d5c-d288033c92b7@cf.edocetion.com:2086?encryption=no
 vless://0cd35242-6d22-431b-9b37-4337c950cebb@discord.gg:80?encryption=none&security=none&alpn=TELEGRAM%3A%20%40proxy_mtm%20%7C%20TELEGRAM%3A%20%40proxy_mtm%20&type=ws&host=shhproxy-free.xn--85-pv2cl2k5x3fipr.org.&path=%2F#vless%E2%9C%85
 vless://4d8fb54d-b00e-4c83-9830-1029c56e6108@vip-s1.iranitmans.com:22879?encryption=none&security=none&type=ws&path=%2F#vless%E2%9C%85
 vless://e6f873d6-a281-419e-9d34-41ee01c9fdad@104.21.51.185:2053?encryption=none&security=tls&sni=uciranir-uciranir-uciranirarvanclud-server1.cirapaj173.workers.dev&type=ws&host=uciranir-uciranir-uciranirarvanclud-server1.cirapaj173.workers.dev&path=-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR-%40UCIRANIR%2F%3Fed%3D69752#vless%E2%9C%85
-
 vless://fa74c6c6-5e0a-43f6-9997-ed0e10dc10bc@172.67.171.98:80?security=&type=ws&path=/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg&host=vmessorg1.xn--54qv00ez5ar77g.co.&encryption=none#vless%E2%9C%85
 vless://0cd35242-6d22-431b-9b37-4337c950cebb@www.speedtest.net:80?security=&type=ws&path=/?Telegram:@proxy_mtm&host=shhproxy-free.xn--85-pv2cl2k5x3fipr.org.&encryption=none#vless%E2%9C%85
 vless://0f0b7f69-78e1-4e9e-8b35-0986444613e4@104.18.202.232:8080?security=&type=ws&path=/connect&host=XMRdArK.xn--cr8haa.V2ray7.xn--1ug4145pija8k.XMRdark1.lInK.&encryption=none#vless%E2%9C%85
