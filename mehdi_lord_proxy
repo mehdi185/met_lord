@@ -1,8 +1,8 @@
 #profile-title: base64:8J+GkyBCYXJyeS1mYXIgfCBXYXJwIPCfjJA=
 #profile-update-interval: 1
-warp://auto#wiw ⭐️&&detour=warp://auto#W 🇮🇷
-warp://188.114.98.230:3138?ifp=5-10#WiW⭐️-&&detour=warp://188.114.98.83:3138?ifp=5-10#W⭐️
-warp://188.114.98.83:3138?ifp=5-10#WiW⭐️-&&detour=warp://188.114.98.230:3138?ifp=5-10#W⭐️
+warp://auto#🇮🇷always work but slow🇮🇷 ⭐️&&detour=warp://auto#🔍always work but slow 🇮🇷
+warp://188.114.98.230:3138?ifp=5-10#⭐️always work but slow⭐️-&&detour=warp://188.114.98.83:3138?ifp=5-10#🔍always work but slow🔍
+warp://188.114.98.83:3138?ifp=5-10#⭐️🔍always work but slow🔍⭐️-&&detour=warp://188.114.98.230:3138?ifp=5-10#🔍always work but slow🔍
 
 vless://43951cd8-c36c-4f4e-b697-2b834a3aa401@104.27.35.10:2053?security=tls&sni=miza-grpc-c2894dcc979a990558f9e84851626b6fe41a66c8.mitsonic.com&type=grpc&encryption=none#vless%E2%9C%85
 vless://920ed9d2-f239-44fc-87cd-7faa60ab9198@104.16.60.8:443?security=tls&sni=andropplee.gpairnetwork369.com&alpn=h2,http/1.1&type=grpc&encryption=none#vless%E2%9C%85
