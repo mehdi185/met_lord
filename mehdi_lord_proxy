@@ -1,4 +1,5 @@
 #profile-update-interval: 1
+warp://auto#vless✅
 vless://939fcfa4-0d30-4f86-a1f7-13cc2dae002b@162.159.195.65:443?encryption=none&security=tls&sni=codm-http-server.ejlvovtt.workers.dev&type=ws&host=codm-http-server.ejlvovtt.workers.dev&path=%2F%3Fed%3D2048#vless%E2%9C%85
 vless://8ce8ca39-57a5-48cf-8edd-200ec62a282a@85.133.151.219:50503?encryption=none&security=none&type=tcp&headerType=http&host=www.speedtest.net#vless%E2%9C%85
 vless://5119d567-4460-4889-b1fc-af24292c363e@162.159.136.234:80?encryption=none&security=none&type=ws&host=shhproxy-free.xn--85-pv2cl2k5x3fipr.org.&path=%2F#%E2%9C%85vless%E2%9C%85
