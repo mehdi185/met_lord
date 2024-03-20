@@ -1,4 +1,5 @@
 #profile-update-interval: 1
+warp://auto
 vless://64b0d424-0550-41dd-d22c-b607f5b704bc@85.9.104.17:21?security=&type=ws&path=/mp3&encryption=none#vless%E2%9C%85
 vless://4d8fb54d-b00e-4c83-9830-1029c56e6108@vip-s1.iranitmans.com:22879?security=&type=ws&path=/&encryption=none#vless%E2%9C%85
 vless://43951cd8-c36c-4f4e-b697-2b834a3aa401@104.27.35.10:2053?security=tls&sni=miza-grpc-c2894dcc979a990558f9e84851626b6fe41a66c8.mitsonic.com&type=grpc&encryption=none#vless%E2%9C%85
