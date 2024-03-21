@@ -1,3 +1,4 @@
+#profile-update-interval: 1
 vless://aa2dc840-be38-4b4d-a002-ba234999fd55@172.67.98.236:8080?security=&type=ws&path=/&host=cdn-allxn--b6gaceuorg.l4o117en.workers.dev&encryption=none#vless%E2%9C%85
 vless://66dfb5f2-1c63-4d82-94a7-0915bedd93b9@knocked.aurorainiceland.com:443?security=tls&sni=knocked.aurorainiceland.com&type=ws&path=/nimws&encryption=none#vless%E2%9C%85
 vless://fca3181c-8db7-5d8a-9d5c-d288033c92b7@cf.edocetion.com:2086?security=&type=ws&path=/one&host=do.antony808.lat&encryption=none#%E2%9C%85vless%E2%9C%85
