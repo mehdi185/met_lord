@@ -1,6 +1,11 @@
 #profile-update-interval: 1
 #profile-title: base64:8J+GkyBCYXJyeS1mYXIgfCBXYXJwIPCfjJA=
-warp://162.159.195.62:5279#f1 - warp://162.159.195.149:5279f2 - warp://188.114.96.208:1180#f3 - warp://188.114.96.106:1180#f4
+
+warp://162.159.195.62:5279#f1 -
+warp://162.159.195.149:5279f2 - 
+warp://188.114.96.208:1180#f3 -
+warp://188.114.96.106:1180#f4 -
+
 
 vless://7730f3c5-6957-4832-91bb-ca9baef1dc7b@85.198.14.35:58212?security=&type=tcp&headerType=http&host=www.speedtest.net&encryption=none#vless%20vip
 vless://909bbd77-6d0a-4bc1-beda-75b634f53759@193.107.48.31:2083?security=&type=tcp&headerType=http&host=telewebion.com&encryption=none#vless%20vip
