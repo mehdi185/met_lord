@@ -1,3 +1,5 @@
+vless://5483cd3c-6ba8-4704-bb03-7c9f74d29026@104.19.228.25:8080?security=&type=ws&path=@daily_configs-@daily_configs-@daily_configs-@daily_configs&host=kanale-daily-configs-join-bede.%E7%BE%A9%E5%8B%99%E8%AD%A6%E5%93%A1.online.&encryption=none#vless
+vless://5483cd3c-6ba8-4704-bb03-7c9f74d29026@www.speedtest.net:8080?security=&type=ws&path=@daily_configs-@daily_configs-@daily_configs-@daily_configs&host=kanale-daily-configs-join-bede.%E7%BE%A9%E5%8B%99%E8%AD%A6%E5%93%A1.online.&encryption=none#vless
 vless://ac6db4ff-9c6e-4d88-b578-43435f1f8d98@62.60.132.138:8096?security=&type=tcp&headerType=http&host=&encryption=none#vless%20vip
 vless://1bead309-f7a3-4aac-8aff-1ea014e93aa9@94.182.136.67:53577?security=&type=tcp&headerType=http&host=speedtest.net&encryption=none#%E2%9C%85vless%E2%9C%85
 vless://0101c414-92e3-497c-bd7b-b48aa70c8789@162.159.135.234:2095?security=&type=ws&path=ZEDMODEON-ZEDMODEON-ZEDMODEON&host=zedmodeon2.%E3%82%89%E3%82%8F%E3%81%AA%E3%81%95.tech.&encryption=none#shadowsocks
