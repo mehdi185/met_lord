@@ -1,11 +1,6 @@
 #profile-update-interval: 1
 #profile-title: base64:8J+GkyBCYXJyeS1mYXIgfCBXYXJwIPCfjJA=
 
-warp://162.159.195.62:5279#f1 -
-warp://162.159.195.149:5279#f2 - 
-warp://188.114.96.208:1180#f3 -
-warp://188.114.96.106:1180#f4 -
-
 
 
 vless://4ef79985-7115-4a93-a568-dfe4172bf42f@217.219.212.5:57803?security=&type=tcp&headerType=http&host=fast.com&encryption=none#vless
