@@ -2,7 +2,7 @@
 #profile-update-interval: 1
 
 warp://auto##wiregurd 1 -
-=warp://auto##wiregurd ir -
+warp://auto##wiregurd ir -
 warp://188.114.97.26:7156?ifp=5-10#wiregurd 2-
 warp://188.114.98.2:7156?ifp=5-10#wiregurd 4-
 warp://188.114.98.2:7156?ifp=5-10#wiregurd 3-
