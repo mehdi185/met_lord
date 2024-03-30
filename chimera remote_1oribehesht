@@ -1,3 +1,4 @@
+#profile-update-interval: 1
 vless://Venom-Servers@162.159.137.232:443?security=tls&sni=Morvarid.dorcc.ir&alpn=h2,http/1.1&type=grpc&serviceName=Telegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_ServersTelegram-Channel@Venom_Servers&encryption=none#%E2%9C%85vless%E2%9C%85
 vless://Parsashonam-34@104.18.202.232:8080?security=&type=ws&path=/&host=Parsashonam.%E6%88%91%E4%BB%AC%E7%B4%AF%E4%BA%86.tech.&encryption=none#%E2%9C%85vless%E2%9C%85
 vless://TELEGRAM-ID-XPNTEAM@104.20.83.159:2096?security=tls&sni=allnet-xpn.iraniposhal.ir&alpn=h2&type=grpc&encryption=none#%E2%9C%85vless%E2%9C%85
