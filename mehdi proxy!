@@ -1,5 +1,3 @@
-#profile-update-interval: 1
-#profile-title:✰Custom-v2ray🇺🇸
 vless://e2443e49-e0ce-4628-808f-76469b53cf66@104.21.15.229:443?security=tls&sni=net1.zxv.biz.id&type=ws&path=/?ed%3D2048&host=net1.zxv.biz.id&encryption=none#%E2%9C%B0Wifi+Gaming%F0%9F%8E%AE
 vless://5faa94c6-ea27-4ea0-9e39-2de3d6ea9be1@104.21.33.85:8880?security=&type=ws&path=/?ed%3D2048&host=channel-falcunargo.efa180b5d7.workers.Dev&encryption=none#Vless%F0%9F%87%A9%F0%9F%87%AA+Fast
 vless://8291c021-c278-423f-9b2d-76a2a490064e@s1.configserverpro.site:12557?security=&type=tcp&headerType=http&host=&encryption=none#%E2%9C%B0Wifi+Gaming%F0%9F%8E%AE-%F0%9F%87%B9%F0%9F%87%B7-Ultra%20fast%F0%9F%8E%AE
@@ -121,6 +119,13 @@ vless://43d3c519-fb90-4e1c-ab72-ab921f6d3d04@104.21.16.237:443?security=tls&sni=
 vless://00ab1ddf-249b-421e-8161-df9de884fbe4@[::ffff:104.21.23.119]:443?security=tls&sni=HarmoNY.RadicalizatiON.IR&alpn=http/1.1&fp=safari&type=ws&path=/?ed&host=HarmoNY.RadicalizatiON.IR&encryption=none#%F0%9F%94%92Vless-Others%F0%9F%94%92
 vless://a9a5c647-8f59-454c-a5b1-a1c198e4ac1e@5.44.42.121:443?security=tls&sni=amazon.oapdis.com&fp=safari&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%94%92Vless-Others%F0%9F%94%92
 vless://5da9a558-3425-4f3f-8029-30b89fc97bb5@5.78.102.27:27710?security=&type=tcp&encryption=none#%F0%9F%94%92Vless-Others%F0%9F%94%92
+vless://b79e50b2-a9fe-43f4-8fe6-ed403573120c@80.249.113.152:8477?security=&type=tcp&headerType=http&host=colorlib.com&encryption=none#Fast%20Wifi%E2%9C%B0
+vless://c0d37795-3a24-45af-a790-70992e627602@5.202.74.103:440?security=&type=tcp&path=/&headerType=http&host=&encryption=none#Fast%20Wifi%E2%9C%B0
+vless://70d636a2-9b96-4b20-b749-969e5e3bd503@185.231.183.199:2087?security=&type=tcp&headerType=http&host=speedtest.net&encryption=none#Fast%20Wifi%E2%9C%B0
+vless://8291c021-c278-423f-9b2d-76a2a490064e@46.36.100.38:12557?security=&type=tcp&headerType=http&host=&encryption=none#Fast%20Wifi%E2%9C%B0
+vless://cfc0e14c-cecd-4696-9d58-702a8653cbee@104.17.242.61:443?security=tls&sni=EliV2ray.naziitness.com&alpn=h2&fp=chrome&type=grpc&serviceName=@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY&encryption=none#Fast%20Wifi%E2%9C%B0
+vless://cfc0e14c-cecd-4696-9d58-702a8653cbee@104.17.243.61:443?security=tls&sni=EliV2ray.naziitness.com&alpn=h2&fp=chrome&type=grpc&serviceName=@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY--@ELiV2RaY&encryption=none#Fast%20Wifi%E2%9C%B0
+vless://0895c839-54e8-4522-cfa0-d1a5b1b34827@104.16.68.38:2086?security=&type=ws&path=/&host=mag.zhaal.ir&encryption=none#Fast%20Wifi%E2%9C%B0
 vless://5886b978-b080-4612-b420-4d829080561d@104.21.36.87:443?security=tls&sni=pPAl03.Dr-bRADY-gorczAny.woRKERS.DEv&type=ws&path=/bxhZjqFfkUO6VHuC?ed%3D2048&host=PPal03.dR-BradY-GoRcZANy.worKerS.DEV&encryption=none#%F0%9F%94%92Vless-Others%F0%9F%94%92
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@51.210.179.47:443?security=tls&sni=Zmq3W3.taco-land.net&fp=chrome&type=ws&path=/&host=Zmq3W3.taco-land.net&encryption=none#%F0%9F%94%92Vless-Others%F0%9F%94%92
 vless://d672ec4f-afba-4f61-af09-eec872f97e99@188.114.97.43:443?security=tls&sni=test57.pages.dev&type=ws&path=/freecodes&host=test57.pages.dev&encryption=none#%F0%9F%94%92Vless-Others%F0%9F%94%92
