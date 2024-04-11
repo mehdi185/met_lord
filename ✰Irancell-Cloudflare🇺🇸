@@ -1,6 +1,6 @@
 #profile-title:✰Irancell-Cloudflare🇺🇸
 #profile-update-interval: 1
-warp://188.114.96.194:4198/?ifp=5-10#Cloudflare🇺🇸✰&&detour=warp://188.114.96.223:4198/?ifp=5-10#✰Cloudflare
-warp://188.114.97.211:4198/?ifp=5-10#✰Cloudflare✰&&detour=warp://188.114.98.201:4198/?ifp=5-10#✰Cloudflare
+warp://188.114.96.194:4198/?ifp=5-10#Germany-1🇩🇪✰&&detour=warp://188.114.96.223:4198/?ifp=5-10#IR-IP-1🇮🇷
+warp://188.114.97.211:4198/?ifp=5-10#Germany-2🇩🇪✰&&detour=warp://188.114.98.201:4198/?ifp=5-10#IR-IP-2🇮🇷
 
 
