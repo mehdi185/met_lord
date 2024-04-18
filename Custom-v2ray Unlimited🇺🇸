@@ -1,6 +1,4 @@
 #profile-title:✰Custom-V2ray-Unlimited🇺🇸
 #profile-update-interval: 1
-vless://564fb3f3-016d-4f8e-8497-d89ac6cb888a@188.114.97.103:443?security=tls&sni=ff372053.customv2ray.pages.dev&fp=chrome&type=ws&host=ff372053.customv2ray.pages.dev&encryption=none#Mokhaberat+%F0%9F%87%A9%F0%9F%87%AACloudflare1
-vless://564fb3f3-016d-4f8e-8497-d89ac6cb888a@188.114.96.236:2053?security=tls&sni=ff372053.customv2ray.pages.dev&fp=android&type=ws&host=ff372053.customv2ray.pages.dev&encryption=none#Mokhaberat+%F0%9F%87%A9%F0%9F%87%AACloudflare2
-vless://564fb3f3-016d-4f8e-8497-d89ac6cb888a@188.114.96.236:2053?security=tls&sni=ff372053.customv2ray.pages.dev&fp=ios&type=ws&host=ff372053.customv2ray.pages.dev&encryption=none#Mokhaberat+%F0%9F%87%A9%F0%9F%87%AACloudflare3
-vless://564fb3f3-016d-4f8e-8497-d89ac6cb888a@188.114.96.236:2053?security=tls&sni=ff372053.customv2ray.pages.dev&fp=randomized&type=ws&host=ff372053.customv2ray.pages.dev&encryption=none#Mokhaberat+%F0%9F%87%A9%F0%9F%87%AACloudflare4
+vless://564fb3f3-016d-4f8e-8497-d89ac6cb888a@188.114.97.103:443?security=tls&sni=ff372053.customv2ray.pages.dev&fp=chrome&type=ws&host=ff372053.customv2ray.pages.dev&encryption=none#Mokhaberat+%F0%9F%87%BA%F0%9F%87%B8Cloudflare
+vless://564fb3f3-016d-4f8e-8497-d89ac6cb888a@188.114.96.236:2053?security=tls&sni=ff372053.customv2ray.pages.dev&fp=android&type=ws&host=ff372053.customv2ray.pages.dev&encryption=none#Mokhaberat+%F0%9F%87%A9%F0%9F%87%AACloudflare
