@@ -1,5 +1,3 @@
-#profile-title:✰Custom-V2ray🇺🇸
-#profile-update-interval: 1
 vless://5ce2ed16-d687-44e2-a8e6-26660efb7d58@129.159.197.137:8443?security=tls&sni=77d85df6.worker2-55t.pages.dev&fp=ios&type=ws&host=77d85df6.worker2-55t.pages.dev&encryption=none#%F0%9F%87%BA%F0%9F%87%B3Mokhaberat%20TCI%20%202+CDN%F0%9F%87%A9%F0%9F%87%AA%20
 vless://564fb3f3-016d-4f8e-8497-d89ac6cb888a@158.101.169.13:8443?security=tls&sni=ff372053.customv2ray.pages.dev&fp=ios&type=ws&host=ff372053.customv2ray.pages.dev&encryption=none#%F0%9F%87%BA%F0%9F%87%B3Mokhaberat%20TCI%20+CDN%F0%9F%87%A9%F0%9F%87%AA%20
 vless://5ce2ed16-d687-44e2-a8e6-26660efb7d58@172.66.47.49:443?security=tls&sni=77d85df6.worker2-55t.pages.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=77d85df6.worker2-55t.pages.dev&encryption=none#Customv2ray-Main%F0%9F%87%BA%F0%9F%87%B3%20%20
