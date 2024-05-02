@@ -1,3 +1,6 @@
+#profile-title: IRancell-Vip 2
+#profile-update-interval: 1
+
 {
     "log": {
         "disabled": false,
@@ -76,7 +79,7 @@
             "domain_strategy": "",
             "interface_name": "tun0",
             "inet4_address": "172.19.0.1\/30",
-            "mtu": 900,
+            "mtu": 9000,
             "auto_route": true,
             "strict_route": true,
             "stack": "system",
@@ -135,12 +138,12 @@
             "server_port": 4198,
             "local_address": [
                 "172.16.0.2\/32",
-                "2606:4700:110:81de:d08c:6034:b7a1:b192\/127"
+                "2606:4700:110:8c8b:7560:a35d:2c96:670f\/128"
             ],
-            "private_key": "wKj4ZdR8lgZqFe56VIaJG2bYpo3jn5a4nwdGOo0IwEg=",
+            "private_key": "8M3C+gSeQZ4HeoOyb5wr+jyEGa1PZYnz8xVKyb6Qsko=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5\/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1280,
-            "reserved": "lSR5",
+            "reserved": "ZYvo",
             "tag": "WARP "
         }
     ],
