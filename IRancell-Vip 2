@@ -1,4 +1,4 @@
-#profile-title: base64:VFZDIHwgV0FSUCA=
+#profile-title: IRancell-Vip 2
 #profile-update-interval: 1
 {
     "log": {
@@ -78,7 +78,7 @@
             "domain_strategy": "",
             "interface_name": "tun0",
             "inet4_address": "172.19.0.1\/30",
-            "mtu": 9000,
+            "mtu": 900,
             "auto_route": true,
             "strict_route": true,
             "stack": "system",
@@ -137,7 +137,7 @@
             "server_port": 4198,
             "local_address": [
                 "172.16.0.2\/32",
-                "2606:4700:110:81de:d08c:6034:b7a1:b192\/128"
+                "2606:4700:110:81de:d08c:6034:b7a1:b192\/127"
             ],
             "private_key": "wKj4ZdR8lgZqFe56VIaJG2bYpo3jn5a4nwdGOo0IwEg=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5\/1SUtzH0JuVo51h2wPfgyo=",
