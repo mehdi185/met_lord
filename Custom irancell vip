@@ -1,5 +1,11 @@
-#profile-title:Custom-IRancell-Vip
+SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+
+#profile-title: base64:VFZDIHwgV0FSUCA=
 #profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+#support-url: https://t.me/v2raycollector
+#profile-web-page-url: https://github.com/yebekhe/TelegramV2rayCollector
+
 {
     "log": {
         "disabled": false,
@@ -102,14 +108,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "CustomV2ray-IRancell"
+                "WARP "
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "CustomV2ray-IRancell"
+                "WARP "
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -133,17 +139,17 @@
         },
         {
             "type": "wireguard",
-            "server": "162.159.192.165,
+            "server": "188.114.96.194",
             "server_port": 4198,
             "local_address": [
                 "172.16.0.2\/32",
-                "2606:4700:110:8c8b:7560:a35d:2c96:670f\/128"
+                "2606:4700:110:8f5d:e53e:b4ca:c4:fc44\/128"
             ],
-            "private_key": "8M3C+gSeQZ4HeoOyb5wr+jyEGa1PZYnz8xVKyb6Qsko=",
+            "private_key": "SPKpCYuG1zLtGQkqVmuRZf2XdIskCwE3iQ84z8DLlVs=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5\/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1280,
-            "reserved": "ZYvo",
-            "tag": "CustomV2ray-IRancell"
+            "reserved": "HdWN",
+            "tag": "WARP "
         }
     ],
     "route": {
