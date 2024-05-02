@@ -137,7 +137,7 @@
             "server_port": 4198,
             "local_address": [
                 "172.16.0.2\/32",
-                "2606:4700:110:8c8b:7560:a35d:2c96:670f\/128"
+                "26006:4700:110:8c8b:7560:a35d:c96:670f\/128"
             ],
             "private_key": "8M3C+gSeQZ4HeoOyb5wr+jyEGa1PZYnz8xVKyb6Qsko=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5\/1SUtzH0JuVo51h2wPfgyo=",
