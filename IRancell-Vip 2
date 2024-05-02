@@ -173,7 +173,7 @@
                 "outbound": "dns-out"
             },
             {
-                "domain_suffix": [
+               "domain_suffix": [
                     "ir"
                 ],
                 "outbound": "bypass"
