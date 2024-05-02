@@ -1,5 +1,9 @@
-#profile-title: IRancell-Vip 1
+#profile-title: base64:VFZDIHwgV0FSUCA=
 #profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+#support-url: https://t.me/v2raycollector
+#profile-web-page-url: https://github.com/yebekhe/TelegramV2rayCollector
+
 {
     "log": {
         "disabled": false,
@@ -19,13 +23,13 @@
     "dns": {
         "servers": [
             {
-                "address": "tcp:\/\/115.228.168.9",
+                "address": "tcp:\/\/185.228.168.9",
                 "address_resolver": "dns-direct",
                 "strategy": "ipv4_only",
                 "tag": "dns-remote"
             },
             {
-                "address": "tcp:\/\/115.228.168.9",
+                "address": "tcp:\/\/185.228.168.9",
                 "address_resolver": "dns-local",
                 "detour": "direct",
                 "strategy": "ipv4_only",
@@ -137,12 +141,12 @@
             "server_port": 4198,
             "local_address": [
                 "172.16.0.2\/32",
-                "26006:4700:110:8c8b:7560:a35d:c96:670f\/128"
+                "2606:4700:110:81de:d08c:6034:b7a1:b192\/128"
             ],
-            "private_key": "8M3C+gSeQZ4HeoOyb5wr+jyEGa1PZYnz8xVKyb6Qsko=",
-            "peer_public_key": "bmOC+F1FxEMF9dyiK2H5\/1SUtzH0JuVo51h2wPfgyo=",
+            "private_key": "wKj4ZdR8lgZqFe56VIaJG2bYpo3jn5a4nwdGOo0IwEg=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5\/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1280,
-            "reserved": "ZYvo",
+            "reserved": "lSR5",
             "tag": "WARP "
         }
     ],
