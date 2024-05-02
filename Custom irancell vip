@@ -1,10 +1,5 @@
-SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
-
-#profile-title: base64:VFZDIHwgV0FSUCA=
+#profile-title: Custom-IRancell
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
-#support-url: https://t.me/v2raycollector
-#profile-web-page-url: https://github.com/yebekhe/TelegramV2rayCollector
 
 {
     "log": {
@@ -115,7 +110,7 @@ SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON dat
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "WARP "
+                "Custom-IRancell"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -149,7 +144,7 @@ SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON dat
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5\/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1280,
             "reserved": "HdWN",
-            "tag": "WARP "
+            "tag": "Custom-IRancell"
         }
     ],
     "route": {
