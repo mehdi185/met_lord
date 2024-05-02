@@ -1,6 +1,8 @@
 #profile-title: base64:VFZDIHwgV0FSUCA=
 #profile-update-interval: 1
+//s
 {
+
     "log": {
         "disabled": false,
         "level": "fatal",
