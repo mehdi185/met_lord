@@ -1,7 +1,5 @@
 #profile-title: IRancell-Vip 1
 #profile-update-interval: 1
-
-
 {
     "log": {
         "disabled": false,
