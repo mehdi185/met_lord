@@ -134,7 +134,7 @@
         },
         {
             "type": "wireguard",
-            "server": "188.114.97.211",
+            "server": "188.214.97.211",
             "server_port": 4198,
             "local_address": [
                 "172.16.0.2\/32",
@@ -163,7 +163,7 @@
             {
                 "outbound": "dns-out",
                 "port": [
-                    54
+                    53
                 ]
             },
             {
