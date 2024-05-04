@@ -2,7 +2,7 @@
 #profile-update-interval: 1
 
 {
-    "log": {
+"log": {
         "disabled": false,
         "level": "fatal",
         "timestamp": true
