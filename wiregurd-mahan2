@@ -103,14 +103,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "WARP "
+                "irancell "
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "WARP "
+                "irancell "
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
