@@ -103,14 +103,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "irancell "
+                "WARP "
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "irancell "
+                "WARP "
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -134,17 +134,17 @@
         },
         {
             "type": "wireguard",
-            "server": "188.114.96.223",
+            "server": "188.114.97.211",
             "server_port": 4198,
             "local_address": [
                 "172.16.0.2\/32",
-                "2606:4700:110:8bb5:e2af:3114:393a:b616/128"
+                "2606:4700:110:89d2:61a6:e9fa:ef32:e33\/128"
             ],
-            "private_key": "OLLTMAOEapHEXL6F+6rFCjKG9dFmABf6CidoeQKI7nY=",
-            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "private_key": "YK6nDMYqyp9uvE1OcPhyJQMvkWXHjFiOir4nI+Ip4ls=",
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5\/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1280,
-            "reserved": [8,159,23],
-            "tag": "irancell "
+            "reserved": "Z4Ox",
+            "tag": "WARP "
         }
     ],
     "route": {
