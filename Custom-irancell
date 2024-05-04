@@ -163,7 +163,7 @@
             {
                 "outbound": "dns-out",
                 "port": [
-                    53
+                    54
                 ]
             },
             {
