@@ -21,7 +21,7 @@
     {
       "type": "wireguard",
       "tag": "Germany",
-      "detour": "Warp-IR",
+      "detour": "IR",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:8bb5:e2af:3114:393a:b616/128"
