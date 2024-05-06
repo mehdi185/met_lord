@@ -1,4 +1,4 @@
-#profile-title: Custom-IRancell-personal
+#profile-title: Custom-IRancell
 #profile-update-interval: 1
 
 {
@@ -134,8 +134,8 @@
         },
         {
             "type": "wireguard",
-            "server": "188.114.96.99",
-            "server_port": 878,
+            "server": "188.114.97.211",
+            "server_port": 4198,
             "local_address": [
                 "172.16.0.2\/32",
                 "2606:4700:110:89d2:61a6:e9fa:ef32:e33\/128"
