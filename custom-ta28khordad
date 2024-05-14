@@ -1,8 +1,6 @@
 #profile-title: Custom-V2ray-ta-26-khordad
 #profile-update-interval: 1
 
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.99.203:443?security=tls&sni=5882C0fA.bPb-WOrKeR-PaNel-3gd.PAges.dEv&fp=android&type=ws&path=/VBQ78aG9RUC35Nzr?ed%3D2560&host=5882C0fa.bPb-WoRker-panEl-3gD.PAgEs.dev&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%201
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.99.205:443?security=tls&sni=5882C0Fa.Bpb-wORkEr-PANEL-3Gd.PaGES.DEv&fp=chrome&type=ws&path=/HSpaQkAT030CQjvF?ed%3D2560&host=5882c0fA.bPb-woRKeR-panel-3gD.Pages.deV&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%202
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.99.183:443?security=tls&sni=5882C0fA.bpB-WOrKer-pANeL-3GD.PagEs.dEv&fp=edge&type=ws&path=/39pZbjvZzk4JFWcl?ed%3D2560&host=5882C0fa.bPB-wORKEr-PAneL-3gD.PagEs.DEv&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%203
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.87.112:443?security=tls&sni=5882C0fA.bpB-WorKeR-PANeL-3Gd.paGeS.DeV&fp=ios&type=ws&path=/NlcjOM8RILuFaKE3?ed%3D2560&host=5882c0fa.BPB-wORKer-PaNel-3GD.paGES.DeV&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%204
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.66.1.119:443?security=tls&sni=5882C0Fa.bpb-WorKeR-paNeL-3GD.paGEs.DEV&fp=chrome&type=ws&path=/9eu4W5R7TiG4n5Pk?ed%3D2560&host=5882C0fA.bPB-wORkeR-pANEl-3gD.PAgES.DeV&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%205
+vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.99.162:443?security=tls&sni=5882C0FA.BpB-wORkER-PanEl-3gd.paGEs.dEV&fp=chrome&type=ws&path=/oWy37hAD3jOZKVdo?ed%3D2560&host=5882c0FA.bpB-WoRkeR-paNEl-3gd.PaGES.dEV&encryption=none#%F0%9F%92%A6%20BPB%20-%20172.67.99.162
+vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.99.193:443?security=tls&sni=5882c0fa.BPb-wOrker-PAneL-3gD.PAgEs.dEv&fp=chrome&type=ws&path=/NuJXRR9fCzaa9jLe?ed%3D2560&host=5882c0fA.bPb-WORKEr-PanEl-3Gd.pages.dev&encryption=none#%F0%9F%92%A6%20BPB%20-%20172.67.99.193
+vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.80.11:443?security=tls&sni=5882c0Fa.Bpb-wOrkER-paNel-3gD.PAgEs.dev&fp=chrome&type=ws&path=/PtUjXSSoqAGKaD12?ed%3D2560&host=5882c0fa.bPb-wOrKeR-PaNEl-3Gd.PAgES.DEV&encryption=none#%F0%9F%92%A6%20BPB%20-%20172.67.80.11
