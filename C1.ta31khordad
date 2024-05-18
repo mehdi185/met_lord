@@ -1,5 +1,5 @@
 #profile-title: All-internets-ta31khordad🇩🇪
 #profile-update-interval: 1
 
-warp://188.114.96.29:2408/?ifp=5-10#Cloudflare🇺🇸2✰&&detour=warp://188.114.96.29:2408/?ifp=5-10#✰Cloudflare3
-warp://188.114.97.211:4198/?ifp=5-10#✰Cloudflare1✰&&detour=warp://188.114.98.201:4198/?ifp=5-10#✰Cloudflare4
+warp://188.114.96.29:2408/?ifp=5-10#C1🇩🇪✰&&detour=warp://188.114.96.29:2408/?ifp=5-10#✰C2
+warp://188.114.97.211:4198/?ifp=5-10#C3🇩🇪&&detour=warp://188.114.98.201:4198/?ifp=5-10#✰C4
