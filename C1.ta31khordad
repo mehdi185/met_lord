@@ -1,3 +1,1095 @@
-#profile-title: all-internets-ta31khordad🇩🇪
+#profile-title: Wifi-Mokhaberat🇩🇪
 #profile-update-interval: 1
-warp://188.114.97.211:4198/?ifp=5-10#IR-IRancell🇮🇷&&detour=warp://188.114.97.37:8319/?ifp=5-10#Germany🇩🇪
+{
+  "remarks": "\uD83D\uDCA6 BPB Frag - Best Ping \uD83D\uDCA5",
+  "log": {
+    "loglevel": "warning"
+  },
+  "dns": {
+    "hosts": {},
+    "servers": [
+      "https://94.140.14.14/dns-query"
+    ],
+    "tag": "dns"
+  },
+  "inbounds": [
+    {
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true
+      },
+      "tag": "socks-in"
+    },
+    {
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true
+      },
+      "tag": "http-in"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ed6139ab.bpb-worker-panel-3gd.pages.dev",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "ed6139AB.bpB-wORKer-PANel-3gD.PaGES.dEv"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ED6139aB.bpB-WorKeR-panel-3gD.pAGEs.dev"
+          },
+          "path": "/3g94oobvMVjTHjej?ed=2560"
+        }
+      },
+      "tag": "prox_1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.speedtest.net",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "ed6139ab.BPB-workER-PaNeL-3gd.pAGes.DEv"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ED6139Ab.bpB-worKeR-paNEL-3gD.PAgES.DEV"
+          },
+          "path": "/sghNBUYYjFB5gZIQ?ed=2560"
+        }
+      },
+      "tag": "prox_2"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.169.174",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "ED6139Ab.bpB-woRKer-pAnEl-3Gd.pAgEs.Dev"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "eD6139ab.bPB-worKEr-PAnEl-3gd.PAgeS.DEv"
+          },
+          "path": "/RWvdUTCh1cHEkSw1?ed=2560"
+        }
+      },
+      "tag": "prox_3"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.74.156",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "ED6139AB.bpB-Worker-paNel-3gD.PAGEs.dev"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "eD6139aB.bPB-WOrkEr-PAnEL-3GD.PaGES.deV"
+          },
+          "path": "/lk3vZBIlq2CudaKH?ed=2560"
+        }
+      },
+      "tag": "prox_4"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.19.28.38",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "eD6139ab.BPb-WoRKer-PanEL-3gD.paGeS.DEV"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ed6139AB.bPb-worKER-PaneL-3gd.PageS.DEV"
+          },
+          "path": "/UNXMxHNGevmp3Jhk?ed=2560"
+        }
+      },
+      "tag": "prox_5"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.16.102.1",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "ED6139AB.BPB-WORKER-PanEL-3gD.pageS.dEV"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ed6139ab.bPB-WorKer-Panel-3Gd.pAGes.dev"
+          },
+          "path": "/ezguutCNltPl3fai?ed=2560"
+        }
+      },
+      "tag": "prox_6"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.26.13.80",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "ED6139ab.bPb-WorkeR-PaNEL-3gD.pAgeS.DeV"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "eD6139AB.BpB-wOrker-PaNEl-3gd.pAges.Dev"
+          },
+          "path": "/ftkEarIp9VYqgD7K?ed=2560"
+        }
+      },
+      "tag": "prox_7"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "173.245.49.130",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "ed6139ab.BpB-WORker-pANEL-3GD.PagES.DEv"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "eD6139Ab.bPb-worKEr-pAneL-3gD.PAgES.DEV"
+          },
+          "path": "/5eqDagFMojmg8iPX?ed=2560"
+        }
+      },
+      "tag": "prox_8"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "173.245.49.140",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "eD6139aB.BPb-WORKEr-pAnel-3Gd.PAGeS.DEv"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ED6139Ab.bPB-wORkEr-PanEl-3GD.PAGes.DEv"
+          },
+          "path": "/uxiYeGWIqywXaLfw?ed=2560"
+        }
+      },
+      "tag": "prox_9"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.99.162",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "ed6139Ab.BPB-workeR-PAnel-3GD.PaGES.deV"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ED6139Ab.bPB-WoRkER-PaNeL-3gd.PAGes.DEV"
+          },
+          "path": "/7Cz7iOzxRDLRgs3y?ed=2560"
+        }
+      },
+      "tag": "prox_10"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.99.193",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "Ed6139AB.Bpb-WORkeR-PaNEl-3Gd.PAGes.dEV"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "eD6139Ab.BPb-WoRKer-paNeL-3gd.paGes.dEv"
+          },
+          "path": "/CvxACIabIGksvJCw?ed=2560"
+        }
+      },
+      "tag": "prox_11"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.80.11",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "ED6139ab.BpB-wORKer-pANEL-3gD.paGes.dev"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ED6139ab.Bpb-woRKER-paNeL-3GD.PAgEs.Dev"
+          },
+          "path": "/IUX6KigxzHcxkKqy?ed=2560"
+        }
+      },
+      "tag": "prox_12"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.92.48",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "eD6139aB.Bpb-woRKeR-PANEl-3Gd.paGEs.DEv"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ED6139aB.bpB-woRKER-PAnEl-3Gd.pAgEs.dev"
+          },
+          "path": "/z7sUMhjGW5jhReZ1?ed=2560"
+        }
+      },
+      "tag": "prox_13"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.66.214.248",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "eD6139ab.bPB-WOrKEr-PAnEl-3GD.PAGeS.dEv"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "Ed6139ab.BpB-wOrKER-pANeL-3GD.paGeS.dEv"
+          },
+          "path": "/akC8fqw52YP3m0lV?ed=2560"
+        }
+      },
+      "tag": "prox_14"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.74.72",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "ed6139aB.BPb-woRKEr-PaNEl-3Gd.PaGES.Dev"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "Ed6139AB.bpB-woRkeR-paNEl-3Gd.PaGeS.deV"
+          },
+          "path": "/JGOLTOgMxXXpY5yx?ed=2560"
+        }
+      },
+      "tag": "prox_15"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.167",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "ed6139AB.BpB-wOrker-PaNEl-3GD.pAgEs.dev"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "Ed6139Ab.bpB-Worker-pANEL-3gD.PAgES.deV"
+          },
+          "path": "/DXPsZvU1xmuhhB2V?ed=2560"
+        }
+      },
+      "tag": "prox_16"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "103.184.45.67",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "Ed6139aB.bPb-woRKER-PAnEL-3gd.PagES.dEV"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "Ed6139aB.BpB-WORKer-Panel-3Gd.pAgES.dev"
+          },
+          "path": "/0KZxQsgDbHxIvSmW?ed=2560"
+        }
+      },
+      "tag": "prox_17"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.66.47.142",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "Ed6139aB.bpB-WORker-PaNel-3gD.pAGES.DeV"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "Ed6139aB.BPB-workEr-PanEL-3GD.pagES.DeV"
+          },
+          "path": "/gTqToFHHL4sq3wHe?ed=2560"
+        }
+      },
+      "tag": "prox_18"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.66.44.114",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "ed6139aB.BpB-wOrKeR-PaneL-3gd.PaGes.DEV"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ed6139ab.bPB-wORKEr-paneL-3Gd.PaGes.dEv"
+          },
+          "path": "/7vZxrGs23J0DDYWh?ed=2560"
+        }
+      },
+      "tag": "prox_19"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "[2606:4700:310c::ac42:2f8e]",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "Ed6139AB.bPb-WORKer-PAnEL-3GD.paGES.DEv"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ED6139Ab.bPB-WORKEr-panEL-3GD.pAGES.DeV"
+          },
+          "path": "/RWW8lT8seetlvWkv?ed=2560"
+        }
+      },
+      "tag": "prox_20"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "[2606:4700:310c::ac42:2c72]",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "sockopt": {
+          "dialerProxy": "fragment",
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "serverName": "ED6139ab.BPB-wORkER-pAnEl-3gd.pAgeS.deV"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "ED6139ab.bPb-wORkER-paneL-3gD.paGES.dEv"
+          },
+          "path": "/AcbYl7b6YifTErNF?ed=2560"
+        }
+      },
+      "tag": "prox_21"
+    },
+    {
+      "tag": "fragment",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "tlshello",
+          "length": "10-11",
+          "interval": "1-1"
+        }
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tcpKeepAliveIdle": 100,
+          "tcpNoDelay": true
+        }
+      }
+    },
+    {
+      "protocol": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {},
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "ip": [
+          "8.8.8.8"
+        ],
+        "outboundTag": "direct",
+        "port": "53",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "socks-in",
+          "http-in"
+        ],
+        "type": "field",
+        "port": "53",
+        "outboundTag": "dns-out",
+        "enabled": true
+      },
+      {
+        "balancerTag": "all",
+        "type": "field",
+        "network": "tcp,udp"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "all",
+        "selector": [
+          "prox"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        }
+      }
+    ]
+  },
+  "observatory": {
+    "probeInterval": "3m",
+    "probeURL": "https://api.github.com/_private/browser/stats",
+    "subjectSelector": [
+      "prox"
+    ],
+    "EnableConcurrency": true
+  },
+  "stats": {}
+}
