@@ -1,0 +1,4926 @@
+[
+    {
+        "remarks": "💦 BPB Frag - c70cf6b5.bpb-wo...",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "c70cf6b5.bpb-worker-panel-3gd.pages.dev",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cf6b5.bPb-WORKer-pAnEl-3GD.pagEs.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70cF6b5.BPB-WoRkeR-Panel-3Gd.PaGeS.dEv"
+                        },
+                        "path": "/ZecoWRhWJFYUJMep?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - www.speedtest.n...",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "www.speedtest.net",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cF6b5.bPB-worKeR-paNel-3gD.pAgeS.DEv"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70CF6B5.bpB-WORKEr-PANEL-3Gd.PageS.Dev"
+                        },
+                        "path": "/qplp8b212lSdRL4X?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 172.67.169.174",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.169.174",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70CF6B5.BpB-woRKEr-PANel-3GD.paGES.DEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70CF6B5.BPB-woRKer-pANeL-3gD.paGEs.dEv"
+                        },
+                        "path": "/pdle2jD2FMwK6itt?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 172.67.74.156",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.74.156",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70Cf6B5.BPb-WoRKEr-PANel-3Gd.PageS.deV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70Cf6b5.bPb-worKEr-PaNeL-3Gd.pAGEs.DeV"
+                        },
+                        "path": "/Qykv4n2bzJUF2cGw?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 104.19.28.38",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.19.28.38",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cf6b5.bPB-WORkeR-pAnEl-3GD.PAgEs.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70CF6b5.BPB-wORKEr-panel-3gd.paGES.dEV"
+                        },
+                        "path": "/0SKlbWaAu6so6iK9?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 104.16.102.1",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.16.102.1",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cf6B5.BPB-WOrkEr-PANEL-3Gd.PAges.deV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70cF6b5.bPB-WORKEr-PAnEL-3GD.pAGEs.DEV"
+                        },
+                        "path": "/YSKxb2p9fNwEVPUm?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 104.26.13.80",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.26.13.80",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70cF6B5.BPB-wORkEr-PANeL-3Gd.pageS.dEv"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70cF6B5.BPb-WorKEr-PaNEL-3GD.paGes.DEv"
+                        },
+                        "path": "/zhLlVoasccNM4mdD?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 173.245.49.130",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "173.245.49.130",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70Cf6b5.BpB-Worker-pANEl-3Gd.PageS.deV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70CF6B5.bPB-WorkeR-PanEL-3Gd.pageS.DEV"
+                        },
+                        "path": "/RpUY7wCeRM0TPAYj?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 173.245.49.140",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "173.245.49.140",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70cf6b5.bPB-WoRker-paneL-3gd.pageS.Dev"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70cF6B5.BpB-WoRkeR-PanEL-3GD.PAgES.Dev"
+                        },
+                        "path": "/KGG5TGlGcFBLJlm4?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 172.67.99.162",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.99.162",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cF6B5.BpB-WORkER-paneL-3Gd.PAgES.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70cF6B5.BPb-wOrKER-PAnEl-3Gd.pAgEs.DEv"
+                        },
+                        "path": "/u4qfhjX7EAn2AsdX?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 172.67.99.193",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.99.193",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cF6B5.BPB-WoRkER-pAnEl-3GD.paGES.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70cF6b5.BPB-worKER-pANeL-3GD.PAgEs.DeV"
+                        },
+                        "path": "/bh6kmXiv3ktY7e7G?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 172.67.80.11",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.80.11",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70CF6B5.bPb-wORKEr-PANel-3gD.PAGEs.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70CF6B5.bPB-WoRKer-PAnel-3GD.PAGes.dev"
+                        },
+                        "path": "/geHT2vEB6L2xPiDm?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 172.67.92.48",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.92.48",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70cF6B5.BPB-wORKEr-PAnEL-3gd.pagEs.DeV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70Cf6b5.BpB-wOrKer-PaNeL-3Gd.pAGeS.dev"
+                        },
+                        "path": "/aPoLwEEtfVmfXxpr?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 172.66.214.248",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.66.214.248",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70CF6b5.BPB-wOrKer-PaNEL-3gD.PAgeS.dEv"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70CF6B5.bpb-WorKeR-PanEL-3gD.pAGeS.DEV"
+                        },
+                        "path": "/eMARIf4JPILIgkCL?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 172.67.74.72",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.74.72",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70Cf6B5.bpb-worker-PaNel-3gd.pAGEs.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70cF6b5.bpb-WOrker-PAnel-3gd.PAGES.DEv"
+                        },
+                        "path": "/1Vvziu0XcPgIx16w?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 45.67.215.167",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "45.67.215.167",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cF6B5.BPb-WOrkEr-PANeL-3GD.PAGEs.DEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70cf6b5.bpB-WorKEr-PANEL-3GD.PAGeS.DEV"
+                        },
+                        "path": "/mkbHL1uqeMJtA0N7?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 103.184.45.67",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "103.184.45.67",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70cf6b5.BPb-WoRkeR-PaNeL-3gd.pAgeS.dev"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70CF6b5.bpB-WorkEr-pAnEL-3Gd.paGeS.dEv"
+                        },
+                        "path": "/Vn9Y5WOYBU1UrkDL?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 172.66.47.142",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.66.47.142",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70CF6B5.BpB-WoRkeR-PanEl-3gD.pagEs.dEv"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70cF6B5.bpb-workeR-PaNEL-3gD.PaGeS.DeV"
+                        },
+                        "path": "/M4cFtRHwCHV2WFRU?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - 172.66.44.114",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.66.44.114",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70CF6b5.BPB-wOrkEr-PaNel-3GD.PaGeS.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70CF6b5.BpB-WorkEr-PAneL-3gd.PaGES.DeV"
+                        },
+                        "path": "/kVilPWNsNHQ9XSUf?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - [2606:4700:310c...",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "[2606:4700:310c::ac42:2c72]",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70cf6B5.BPb-wORKEr-pAnel-3GD.PagEs.dev"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70cf6b5.bPb-worKeR-PAnEL-3GD.PAGES.DeV"
+                        },
+                        "path": "/ja7ATWexdG2vMDXs?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - [2606:4700:310c...",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "[2606:4700:310c::ac42:2f8e]",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cF6B5.bpb-WoRkER-paNEL-3gd.pAgEs.DeV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70cf6B5.bPB-WoRkeR-pANeL-3gd.PAgES.DeV"
+                        },
+                        "path": "/FIZMSiMEqTijKHwQ?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - Best Ping 💥",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "c70cf6b5.bpb-worker-panel-3gd.pages.dev",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cf6b5.bPb-WORKer-pAnEl-3GD.pagEs.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70cF6b5.BPB-WoRkeR-Panel-3Gd.PaGeS.dEv"
+                        },
+                        "path": "/ZecoWRhWJFYUJMep?ed=2560"
+                    }
+                },
+                "tag": "prox_1"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "www.speedtest.net",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cF6b5.bPB-worKeR-paNel-3gD.pAgeS.DEv"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70CF6B5.bpB-WORKEr-PANEL-3Gd.PageS.Dev"
+                        },
+                        "path": "/qplp8b212lSdRL4X?ed=2560"
+                    }
+                },
+                "tag": "prox_2"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.169.174",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70CF6B5.BpB-woRKEr-PANel-3GD.paGES.DEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70CF6B5.BPB-woRKer-pANeL-3gD.paGEs.dEv"
+                        },
+                        "path": "/pdle2jD2FMwK6itt?ed=2560"
+                    }
+                },
+                "tag": "prox_3"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.74.156",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70Cf6B5.BPb-WoRKEr-PANel-3Gd.PageS.deV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70Cf6b5.bPb-worKEr-PaNeL-3Gd.pAGEs.DeV"
+                        },
+                        "path": "/Qykv4n2bzJUF2cGw?ed=2560"
+                    }
+                },
+                "tag": "prox_4"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.19.28.38",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cf6b5.bPB-WORkeR-pAnEl-3GD.PAgEs.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70CF6b5.BPB-wORKEr-panel-3gd.paGES.dEV"
+                        },
+                        "path": "/0SKlbWaAu6so6iK9?ed=2560"
+                    }
+                },
+                "tag": "prox_5"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.16.102.1",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cf6B5.BPB-WOrkEr-PANEL-3Gd.PAges.deV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70cF6b5.bPB-WORKEr-PAnEL-3GD.pAGEs.DEV"
+                        },
+                        "path": "/YSKxb2p9fNwEVPUm?ed=2560"
+                    }
+                },
+                "tag": "prox_6"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "104.26.13.80",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70cF6B5.BPB-wORkEr-PANeL-3Gd.pageS.dEv"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70cF6B5.BPb-WorKEr-PaNEL-3GD.paGes.DEv"
+                        },
+                        "path": "/zhLlVoasccNM4mdD?ed=2560"
+                    }
+                },
+                "tag": "prox_7"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "173.245.49.130",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70Cf6b5.BpB-Worker-pANEl-3Gd.PageS.deV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70CF6B5.bPB-WorkeR-PanEL-3Gd.pageS.DEV"
+                        },
+                        "path": "/RpUY7wCeRM0TPAYj?ed=2560"
+                    }
+                },
+                "tag": "prox_8"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "173.245.49.140",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70cf6b5.bPB-WoRker-paneL-3gd.pageS.Dev"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70cF6B5.BpB-WoRkeR-PanEL-3GD.PAgES.Dev"
+                        },
+                        "path": "/KGG5TGlGcFBLJlm4?ed=2560"
+                    }
+                },
+                "tag": "prox_9"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.99.162",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cF6B5.BpB-WORkER-paneL-3Gd.PAgES.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70cF6B5.BPb-wOrKER-PAnEl-3Gd.pAgEs.DEv"
+                        },
+                        "path": "/u4qfhjX7EAn2AsdX?ed=2560"
+                    }
+                },
+                "tag": "prox_10"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.99.193",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cF6B5.BPB-WoRkER-pAnEl-3GD.paGES.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70cF6b5.BPB-worKER-pANeL-3GD.PAgEs.DeV"
+                        },
+                        "path": "/bh6kmXiv3ktY7e7G?ed=2560"
+                    }
+                },
+                "tag": "prox_11"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.80.11",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70CF6B5.bPb-wORKEr-PANel-3gD.PAGEs.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70CF6B5.bPB-WoRKer-PAnel-3GD.PAGes.dev"
+                        },
+                        "path": "/geHT2vEB6L2xPiDm?ed=2560"
+                    }
+                },
+                "tag": "prox_12"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.92.48",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70cF6B5.BPB-wORKEr-PAnEL-3gd.pagEs.DeV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70Cf6b5.BpB-wOrKer-PaNeL-3Gd.pAGeS.dev"
+                        },
+                        "path": "/aPoLwEEtfVmfXxpr?ed=2560"
+                    }
+                },
+                "tag": "prox_13"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.66.214.248",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70CF6b5.BPB-wOrKer-PaNEL-3gD.PAgeS.dEv"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70CF6B5.bpb-WorKeR-PanEL-3gD.pAGeS.DEV"
+                        },
+                        "path": "/eMARIf4JPILIgkCL?ed=2560"
+                    }
+                },
+                "tag": "prox_14"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.67.74.72",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70Cf6B5.bpb-worker-PaNel-3gd.pAGEs.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70cF6b5.bpb-WOrker-PAnel-3gd.PAGES.DEv"
+                        },
+                        "path": "/1Vvziu0XcPgIx16w?ed=2560"
+                    }
+                },
+                "tag": "prox_15"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "45.67.215.167",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cF6B5.BPb-WOrkEr-PANeL-3GD.PAGEs.DEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70cf6b5.bpB-WorKEr-PANEL-3GD.PAGeS.DEV"
+                        },
+                        "path": "/mkbHL1uqeMJtA0N7?ed=2560"
+                    }
+                },
+                "tag": "prox_16"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "103.184.45.67",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70cf6b5.BPb-WoRkeR-PaNeL-3gd.pAgeS.dev"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70CF6b5.bpB-WorkEr-pAnEL-3Gd.paGeS.dEv"
+                        },
+                        "path": "/Vn9Y5WOYBU1UrkDL?ed=2560"
+                    }
+                },
+                "tag": "prox_17"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.66.47.142",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70CF6B5.BpB-WoRkeR-PanEl-3gD.pagEs.dEv"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70cF6B5.bpb-workeR-PaNEL-3gD.PaGeS.DeV"
+                        },
+                        "path": "/M4cFtRHwCHV2WFRU?ed=2560"
+                    }
+                },
+                "tag": "prox_18"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "172.66.44.114",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70CF6b5.BPB-wOrkEr-PaNel-3GD.PaGeS.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70CF6b5.BpB-WorkEr-PAneL-3gd.PaGES.DeV"
+                        },
+                        "path": "/kVilPWNsNHQ9XSUf?ed=2560"
+                    }
+                },
+                "tag": "prox_19"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "[2606:4700:310c::ac42:2c72]",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C70cf6B5.BPb-wORKEr-pAnel-3GD.PagEs.dev"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C70cf6b5.bPb-worKeR-PAnEL-3GD.PAGES.DeV"
+                        },
+                        "path": "/ja7ATWexdG2vMDXs?ed=2560"
+                    }
+                },
+                "tag": "prox_20"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "[2606:4700:310c::ac42:2f8e]",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "c70cF6B5.bpb-WoRkER-paNEL-3gd.pAgEs.DeV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "c70cf6B5.bPB-WoRkeR-pANeL-3gd.PAgES.DeV"
+                        },
+                        "path": "/FIZMSiMEqTijKHwQ?ed=2560"
+                    }
+                },
+                "tag": "prox_21"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "balancerTag": "all",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ],
+            "balancers": [
+                {
+                    "tag": "all",
+                    "selector": [
+                        "prox"
+                    ],
+                    "strategy": {
+                        "type": "leastPing"
+                    }
+                }
+            ]
+        },
+        "observatory": {
+            "probeInterval": "3m",
+            "probeURL": "https://api.github.com/_private/browser/stats",
+            "subjectSelector": [
+                "prox"
+            ],
+            "EnableConcurrency": true
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - WorkerLess ⭐",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {
+                "cloudflare-dns.com": [
+                    "104.16.248.249",
+                    "104.16.249.249",
+                    "104.16.133.229",
+                    "104.16.132.229",
+                    "104.18.203.232",
+                    "104.18.202.232",
+                    "108.162.193.103",
+                    "172.64.33.103",
+                    "173.245.59.103",
+                    "108.162.192.128",
+                    "173.245.58.128",
+                    "172.64.32.128"
+                ]
+            },
+            "servers": [
+                "https://cloudflare-dns.com/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    },
+                    "domainStrategy": "UseIP"
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "google.com",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "google.com"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "google.com"
+                        },
+                        "path": "/"
+                    }
+                },
+                "tag": "fake-outbound"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "fragment",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    }
+]
