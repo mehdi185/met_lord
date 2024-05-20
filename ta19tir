@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "💦 BPB Frag - 8f9e6bcf.bpb-wo...",
+        "remarks": "💦 BPB Frag - c4efe7a9.bpb-wo...",
         "log": {
             "loglevel": "warning"
         },
@@ -53,7 +53,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "8f9e6bcf.bpb-worker-panel-3gd.pages.dev",
+                            "address": "c4efe7a9.bpb-worker-panel-3gd.pages.dev",
                             "port": 443,
                             "users": [
                                 {
@@ -82,13 +82,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6BCf.BpB-wOrKEr-pAnEL-3Gd.pageS.Dev"
+                        "serverName": "C4Efe7A9.bPB-WOrkER-PanEL-3gD.PaGeS.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9e6bcF.bPb-worker-PAnel-3GD.PAGeS.DEV"
+                            "Host": "c4EFE7a9.bPb-WoRKER-pAnEl-3gD.PAges.Dev"
                         },
-                        "path": "/WXJNb6I3tZP1a1KP?ed=2560"
+                        "path": "/ypu1SWyIlIiUvglb?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -256,13 +256,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6bcF.BPB-worKER-PAnEl-3GD.pAGEs.dEv"
+                        "serverName": "c4efE7a9.BPB-WoRkER-PAnEl-3gd.PagEs.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6BcF.BPB-WOrkER-PAnEL-3GD.PaGES.dEV"
+                            "Host": "C4EFe7a9.bpB-woRkER-pANEL-3gd.PagES.DEv"
                         },
-                        "path": "/DmBIGWVFwCDowt1f?ed=2560"
+                        "path": "/2ElCW4ir9XgKo1ni?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -430,13 +430,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9E6bCf.BpB-WORKeR-PANEl-3gD.PaGeS.DEV"
+                        "serverName": "C4EfE7a9.bPB-WORkEr-PANeL-3gD.PaGes.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6BCf.BpB-woRkER-PanEl-3Gd.pAgeS.dEV"
+                            "Host": "C4EFe7a9.bpB-workER-PANeL-3gD.PaGEs.dEV"
                         },
-                        "path": "/lS3fBqgdMGeM27sT?ed=2560"
+                        "path": "/xNOpiZyrhNQvsWWc?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -604,13 +604,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9E6BCF.bPB-WoRKEr-pAnel-3GD.PageS.dEv"
+                        "serverName": "C4efe7A9.bpb-WOrKer-PANeL-3gd.PagEs.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9e6bcf.BpB-WORkeR-PAnel-3GD.pAGeS.dev"
+                            "Host": "c4EFe7A9.bPB-worKER-pANel-3gD.paGES.dEv"
                         },
-                        "path": "/NFG2yUG3FE9ISQUe?ed=2560"
+                        "path": "/dh7ZtdnMloAHBkPH?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -778,13 +778,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9e6BcF.BPb-woRKEr-PAnEl-3GD.pagEs.DEV"
+                        "serverName": "c4efe7a9.bpB-WorkEr-paNeL-3gd.pAGeS.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6bCf.BPB-worKEr-PaNEL-3gd.pAGES.DEV"
+                            "Host": "C4EFe7A9.bpb-worKeR-Panel-3GD.PagEs.dEv"
                         },
-                        "path": "/ooqWpHafmEumlDxf?ed=2560"
+                        "path": "/Uqa9V4dh2QtSUovl?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -952,13 +952,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9E6bcf.BpB-wOrKer-paNEl-3GD.PAGes.deV"
+                        "serverName": "c4efe7A9.BPb-woRKEr-pANEL-3Gd.pagEs.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9e6bcF.bPb-wORkER-paneL-3GD.pAGES.dEv"
+                            "Host": "c4eFE7a9.Bpb-wOrkeR-pAnEL-3GD.pAGES.DEV"
                         },
-                        "path": "/EUiDfBgy0ZzJQ8tC?ed=2560"
+                        "path": "/5tEN98YAva2l8EPK?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -1126,13 +1126,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9E6BCF.BPb-WOrKER-PaNeL-3Gd.pageS.DEv"
+                        "serverName": "C4eFE7A9.bpB-WOrkeR-PAnEl-3gD.PaGES.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9E6bcf.bpB-woRKER-PaNEL-3GD.pageS.DeV"
+                            "Host": "c4efe7a9.bPb-wOrkeR-PANEL-3gd.pAGES.dEV"
                         },
-                        "path": "/lhKaAlbkCJYbRQWd?ed=2560"
+                        "path": "/ZQKsUwJpLdIUozPY?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -1300,13 +1300,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9e6bCF.BpB-WOrKEr-PaNEl-3Gd.PaGeS.dEV"
+                        "serverName": "c4eFE7a9.bpb-WORkeR-paNEl-3Gd.PaGes.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6BcF.bpb-workER-panel-3gd.PaGEs.DEV"
+                            "Host": "C4eFe7a9.bPb-WOrker-Panel-3GD.pageS.deV"
                         },
-                        "path": "/8hDC5V2ZfLsUP9gc?ed=2560"
+                        "path": "/WKeZBxW29P8x0KVf?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -1474,13 +1474,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9E6Bcf.BPB-WOrKEr-PAnel-3gD.paGES.DEv"
+                        "serverName": "c4efE7A9.BpB-wORkeR-PANeL-3gD.PaGes.dEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9E6bCF.BPB-WORKEr-pAnEL-3Gd.pAGeS.deV"
+                            "Host": "C4EFe7a9.BpB-worKeR-PAnel-3Gd.pagES.dEV"
                         },
-                        "path": "/q6ieJOJN26l0fsMG?ed=2560"
+                        "path": "/wSmmEfNhG0B0WhHx?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -1648,13 +1648,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6bCF.bPB-worKeR-Panel-3Gd.pagES.DEV"
+                        "serverName": "c4eFE7A9.bPB-wORkER-paNeL-3Gd.PAgEs.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6BCf.BPB-WoRKEr-PaNEl-3gD.PAgES.deV"
+                            "Host": "C4EFE7a9.Bpb-WORker-pANeL-3gD.pAges.dEV"
                         },
-                        "path": "/cFUl1lexIdxbbhky?ed=2560"
+                        "path": "/lLWX2U0gyCdI5ecB?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -1822,13 +1822,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6BCf.BPB-WoRKer-PaNEl-3gD.paGEs.deV"
+                        "serverName": "c4EFe7A9.bPb-woRkeR-paNEL-3GD.PAgES.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9E6bcf.BpB-wORkER-PANeL-3Gd.PageS.DeV"
+                            "Host": "c4EFe7a9.BPb-wOrkeR-panel-3GD.pAGES.dEv"
                         },
-                        "path": "/nCb7IXpvrBS5G3ux?ed=2560"
+                        "path": "/0WpyjdfBgCHqhQaa?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -1996,13 +1996,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9E6bcf.BPb-WOrKER-paNEl-3gD.PaGeS.deV"
+                        "serverName": "C4EFE7A9.BPb-wOrkER-PANel-3gD.paGES.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9e6bcF.BpB-woRKEr-PAnel-3gd.pagEs.dEV"
+                            "Host": "c4EfE7A9.bpB-worker-PanEL-3gd.pAgeS.Dev"
                         },
-                        "path": "/IhXX6Jtb0xwpcpq5?ed=2560"
+                        "path": "/Sgoysm3SxOon2a4U?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -2170,13 +2170,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9E6bcf.BPB-WorkEr-pAneL-3gD.PaGES.DEV"
+                        "serverName": "c4efe7a9.bPb-woRkeR-pANEL-3gd.pAGeS.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6BCF.BPB-wOrKer-paNEl-3gd.pAgEs.DEV"
+                            "Host": "C4EFE7A9.Bpb-WorkEr-PaNEL-3Gd.PaGes.dev"
                         },
-                        "path": "/OeOYTKbi7ffc9RaA?ed=2560"
+                        "path": "/Tc460Focci64Cgn8?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -2344,13 +2344,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6BCf.bPb-WorKER-PAnEL-3gd.pagES.dev"
+                        "serverName": "C4EFe7A9.bPb-wORkEr-pAnEL-3gD.PAGES.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9E6BcF.bPB-WorkEr-PANEl-3gD.PaGES.Dev"
+                            "Host": "C4EFe7A9.BPb-woRker-panel-3gD.PAgEs.dEv"
                         },
-                        "path": "/L27E0GaNckhEPJyQ?ed=2560"
+                        "path": "/WwnBp366ApZlyzul?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -2518,13 +2518,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9e6bCF.bpb-workeR-pANEl-3GD.PAGEs.deV"
+                        "serverName": "C4Efe7a9.BpB-wORKER-panEl-3Gd.PaGes.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6BCF.Bpb-WOrKeR-PAneL-3gd.PaGEs.DeV"
+                            "Host": "c4efE7a9.bPB-wOrKer-PAnEl-3Gd.pAgeS.deV"
                         },
-                        "path": "/qqsEndBRCeyvkFOv?ed=2560"
+                        "path": "/SeT2RhzLXCOLzQnu?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -2692,13 +2692,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9e6bcf.BPb-WOrkEr-pANEl-3gD.PaGes.dEV"
+                        "serverName": "C4efE7a9.BPB-Worker-pANeL-3gd.PagES.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9e6bCF.bPb-WoRkEr-PanEl-3GD.PAGES.dEv"
+                            "Host": "C4efE7a9.bPb-worKEr-paNEL-3GD.pagES.dEv"
                         },
-                        "path": "/CJ5kA61cmuBFMAHh?ed=2560"
+                        "path": "/ujP4RIgr3IHZaiIh?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -2866,13 +2866,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6BcF.Bpb-WOrKeR-PAnEL-3gd.PAGeS.DEV"
+                        "serverName": "C4Efe7a9.Bpb-wOrkEr-paneL-3gd.PaGES.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9E6BcF.Bpb-wORkER-PAnEl-3Gd.pAGes.DEV"
+                            "Host": "c4eFe7A9.BPB-WoRKER-PanEL-3GD.paGES.dEV"
                         },
-                        "path": "/Wmiv6OBKn4Sf2Xth?ed=2560"
+                        "path": "/2FFrg3nEk2NCye7r?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -3040,13 +3040,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9e6BCf.BpB-WorKEr-PanEl-3gD.PagEs.DEV"
+                        "serverName": "C4EFE7A9.BPb-wOrKeR-pAneL-3Gd.PAGEs.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9E6BCF.bpb-WOrkEr-PANel-3Gd.paGes.Dev"
+                            "Host": "C4eFE7a9.bPb-WOrKeR-paneL-3gD.paGes.Dev"
                         },
-                        "path": "/XsmJSz6rxSFSOAoo?ed=2560"
+                        "path": "/y6n6tKunbnkeogfn?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -3214,187 +3214,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6BcF.bPb-wORkEr-paNEL-3Gd.PAges.deV"
+                        "serverName": "c4EFe7A9.bpB-woRKEr-PaNel-3gd.pageS.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9E6BcF.bpb-WorKeR-panEL-3gD.PAGES.dev"
+                            "Host": "C4EfE7a9.BpB-WorkER-PaNel-3gd.pAgES.dEv"
                         },
-                        "path": "/A3ptG5tv0kCykvFn?ed=2560"
-                    }
-                },
-                "tag": "proxy"
-            },
-            {
-                "tag": "fragment",
-                "protocol": "freedom",
-                "settings": {
-                    "fragment": {
-                        "packets": "tlshello",
-                        "length": "10-11",
-                        "interval": "1-1"
-                    }
-                },
-                "streamSettings": {
-                    "sockopt": {
-                        "tcpKeepAliveIdle": 100,
-                        "tcpNoDelay": true
-                    }
-                }
-            },
-            {
-                "protocol": "dns",
-                "tag": "dns-out"
-            },
-            {
-                "protocol": "freedom",
-                "settings": {},
-                "tag": "direct"
-            },
-            {
-                "protocol": "blackhole",
-                "settings": {
-                    "response": {
-                        "type": "http"
-                    }
-                },
-                "tag": "block"
-            }
-        ],
-        "policy": {
-            "levels": {
-                "8": {
-                    "connIdle": 300,
-                    "downlinkOnly": 1,
-                    "handshake": 4,
-                    "uplinkOnly": 1
-                }
-            },
-            "system": {
-                "statsOutboundUplink": true,
-                "statsOutboundDownlink": true
-            }
-        },
-        "routing": {
-            "domainStrategy": "IPIfNonMatch",
-            "rules": [
-                {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "outboundTag": "direct",
-                    "port": "53",
-                    "type": "field"
-                },
-                {
-                    "inboundTag": [
-                        "socks-in",
-                        "http-in"
-                    ],
-                    "type": "field",
-                    "port": "53",
-                    "outboundTag": "dns-out",
-                    "enabled": true
-                },
-                {
-                    "outboundTag": "proxy",
-                    "type": "field",
-                    "network": "tcp,udp"
-                }
-            ]
-        },
-        "stats": {}
-    },
-    {
-        "remarks": "💦 BPB Frag - [2606:4700:310c...",
-        "log": {
-            "loglevel": "warning"
-        },
-        "dns": {
-            "hosts": {},
-            "servers": [
-                "https://94.140.14.14/dns-query"
-            ],
-            "tag": "dns"
-        },
-        "inbounds": [
-            {
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true,
-                    "userLevel": 8
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true
-                },
-                "tag": "socks-in"
-            },
-            {
-                "port": 10809,
-                "protocol": "http",
-                "settings": {
-                    "auth": "noauth",
-                    "udp": true,
-                    "userLevel": 8
-                },
-                "sniffing": {
-                    "destOverride": [
-                        "http",
-                        "tls"
-                    ],
-                    "enabled": true
-                },
-                "tag": "http-in"
-            }
-        ],
-        "outbounds": [
-            {
-                "protocol": "vless",
-                "settings": {
-                    "vnext": [
-                        {
-                            "address": "[2606:4700:310c::ac42:2f8e]",
-                            "port": 443,
-                            "users": [
-                                {
-                                    "encryption": "none",
-                                    "flow": "",
-                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
-                                    "level": 8,
-                                    "security": "auto"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "security": "tls",
-                    "sockopt": {
-                        "dialerProxy": "fragment",
-                        "tcpKeepAliveIdle": 100,
-                        "tcpNoDelay": true
-                    },
-                    "tlsSettings": {
-                        "allowInsecure": false,
-                        "fingerprint": "chrome",
-                        "alpn": [
-                            "h2",
-                            "http/1.1"
-                        ],
-                        "serverName": "8f9E6bCf.BPB-woRKER-PaNel-3gd.PaGes.DEv"
-                    },
-                    "wsSettings": {
-                        "headers": {
-                            "Host": "8F9E6BCf.bpb-wORker-paneL-3GD.PaGes.deV"
-                        },
-                        "path": "/2SQhpdhBizgzXBAV?ed=2560"
+                        "path": "/8GgZ5hns6iT5qdRt?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -3562,13 +3388,187 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6bcf.bPb-woRKER-pANel-3gd.Pages.dEV"
+                        "serverName": "c4efe7a9.bpb-WoRker-pAnel-3gD.PAGES.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9E6bCf.BPB-wOrker-pAnel-3Gd.PAgEs.DEV"
+                            "Host": "c4efe7A9.bpb-WorkEr-panEl-3gD.pAgEs.dev"
                         },
-                        "path": "/RJrWUzSlT9n1IWtz?ed=2560"
+                        "path": "/NQa0c9K1zqIUYo1k?ed=2560"
+                    }
+                },
+                "tag": "proxy"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "10-11",
+                        "interval": "1-1"
+                    }
+                },
+                "streamSettings": {
+                    "sockopt": {
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "protocol": "freedom",
+                "settings": {},
+                "tag": "direct"
+            },
+            {
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                },
+                "tag": "block"
+            }
+        ],
+        "policy": {
+            "levels": {
+                "8": {
+                    "connIdle": 300,
+                    "downlinkOnly": 1,
+                    "handshake": 4,
+                    "uplinkOnly": 1
+                }
+            },
+            "system": {
+                "statsOutboundUplink": true,
+                "statsOutboundDownlink": true
+            }
+        },
+        "routing": {
+            "domainStrategy": "IPIfNonMatch",
+            "rules": [
+                {
+                    "ip": [
+                        "8.8.8.8"
+                    ],
+                    "outboundTag": "direct",
+                    "port": "53",
+                    "type": "field"
+                },
+                {
+                    "inboundTag": [
+                        "socks-in",
+                        "http-in"
+                    ],
+                    "type": "field",
+                    "port": "53",
+                    "outboundTag": "dns-out",
+                    "enabled": true
+                },
+                {
+                    "outboundTag": "proxy",
+                    "type": "field",
+                    "network": "tcp,udp"
+                }
+            ]
+        },
+        "stats": {}
+    },
+    {
+        "remarks": "💦 BPB Frag - [2606:4700:310c...",
+        "log": {
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {},
+            "servers": [
+                "https://94.140.14.14/dns-query"
+            ],
+            "tag": "dns"
+        },
+        "inbounds": [
+            {
+                "port": 10808,
+                "protocol": "socks",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "socks-in"
+            },
+            {
+                "port": 10809,
+                "protocol": "http",
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "userLevel": 8
+                },
+                "sniffing": {
+                    "destOverride": [
+                        "http",
+                        "tls"
+                    ],
+                    "enabled": true
+                },
+                "tag": "http-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "[2606:4700:310c::ac42:2f8e]",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C4efe7a9.BPb-WOrKER-PANEl-3gd.PAgEs.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C4efE7A9.bpb-WoRKer-pANEL-3GD.PageS.DEV"
+                        },
+                        "path": "/SeWiBMnm5AWgONQA?ed=2560"
                     }
                 },
                 "tag": "proxy"
@@ -3707,7 +3707,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "8f9e6bcf.bpb-worker-panel-3gd.pages.dev",
+                            "address": "c4efe7a9.bpb-worker-panel-3gd.pages.dev",
                             "port": 443,
                             "users": [
                                 {
@@ -3736,13 +3736,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6BCf.BpB-wOrKEr-pAnEL-3Gd.pageS.Dev"
+                        "serverName": "C4Efe7A9.bPB-WOrkER-PanEL-3gD.PaGeS.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9e6bcF.bPb-worker-PAnel-3GD.PAGeS.DEV"
+                            "Host": "c4EFE7a9.bPb-WoRKER-pAnEl-3gD.PAges.Dev"
                         },
-                        "path": "/WXJNb6I3tZP1a1KP?ed=2560"
+                        "path": "/ypu1SWyIlIiUvglb?ed=2560"
                     }
                 },
                 "tag": "prox_1"
@@ -3781,13 +3781,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6bcF.BPB-worKER-PAnEl-3GD.pAGEs.dEv"
+                        "serverName": "c4efE7a9.BPB-WoRkER-PAnEl-3gd.PagEs.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6BcF.BPB-WOrkER-PAnEL-3GD.PaGES.dEV"
+                            "Host": "C4EFe7a9.bpB-woRkER-pANEL-3gd.PagES.DEv"
                         },
-                        "path": "/DmBIGWVFwCDowt1f?ed=2560"
+                        "path": "/2ElCW4ir9XgKo1ni?ed=2560"
                     }
                 },
                 "tag": "prox_2"
@@ -3826,13 +3826,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9E6bCf.BpB-WORKeR-PANEl-3gD.PaGeS.DEV"
+                        "serverName": "C4EfE7a9.bPB-WORkEr-PANeL-3gD.PaGes.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6BCf.BpB-woRkER-PanEl-3Gd.pAgeS.dEV"
+                            "Host": "C4EFe7a9.bpB-workER-PANeL-3gD.PaGEs.dEV"
                         },
-                        "path": "/lS3fBqgdMGeM27sT?ed=2560"
+                        "path": "/xNOpiZyrhNQvsWWc?ed=2560"
                     }
                 },
                 "tag": "prox_3"
@@ -3871,13 +3871,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9E6BCF.bPB-WoRKEr-pAnel-3GD.PageS.dEv"
+                        "serverName": "C4efe7A9.bpb-WOrKer-PANeL-3gd.PagEs.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9e6bcf.BpB-WORkeR-PAnel-3GD.pAGeS.dev"
+                            "Host": "c4EFe7A9.bPB-worKER-pANel-3gD.paGES.dEv"
                         },
-                        "path": "/NFG2yUG3FE9ISQUe?ed=2560"
+                        "path": "/dh7ZtdnMloAHBkPH?ed=2560"
                     }
                 },
                 "tag": "prox_4"
@@ -3916,13 +3916,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9e6BcF.BPb-woRKEr-PAnEl-3GD.pagEs.DEV"
+                        "serverName": "c4efe7a9.bpB-WorkEr-paNeL-3gd.pAGeS.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6bCf.BPB-worKEr-PaNEL-3gd.pAGES.DEV"
+                            "Host": "C4EFe7A9.bpb-worKeR-Panel-3GD.PagEs.dEv"
                         },
-                        "path": "/ooqWpHafmEumlDxf?ed=2560"
+                        "path": "/Uqa9V4dh2QtSUovl?ed=2560"
                     }
                 },
                 "tag": "prox_5"
@@ -3961,13 +3961,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9E6bcf.BpB-wOrKer-paNEl-3GD.PAGes.deV"
+                        "serverName": "c4efe7A9.BPb-woRKEr-pANEL-3Gd.pagEs.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9e6bcF.bPb-wORkER-paneL-3GD.pAGES.dEv"
+                            "Host": "c4eFE7a9.Bpb-wOrkeR-pAnEL-3GD.pAGES.DEV"
                         },
-                        "path": "/EUiDfBgy0ZzJQ8tC?ed=2560"
+                        "path": "/5tEN98YAva2l8EPK?ed=2560"
                     }
                 },
                 "tag": "prox_6"
@@ -4006,13 +4006,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9E6BCF.BPb-WOrKER-PaNeL-3Gd.pageS.DEv"
+                        "serverName": "C4eFE7A9.bpB-WOrkeR-PAnEl-3gD.PaGES.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9E6bcf.bpB-woRKER-PaNEL-3GD.pageS.DeV"
+                            "Host": "c4efe7a9.bPb-wOrkeR-PANEL-3gd.pAGES.dEV"
                         },
-                        "path": "/lhKaAlbkCJYbRQWd?ed=2560"
+                        "path": "/ZQKsUwJpLdIUozPY?ed=2560"
                     }
                 },
                 "tag": "prox_7"
@@ -4051,13 +4051,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9e6bCF.BpB-WOrKEr-PaNEl-3Gd.PaGeS.dEV"
+                        "serverName": "c4eFE7a9.bpb-WORkeR-paNEl-3Gd.PaGes.DEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6BcF.bpb-workER-panel-3gd.PaGEs.DEV"
+                            "Host": "C4eFe7a9.bPb-WOrker-Panel-3GD.pageS.deV"
                         },
-                        "path": "/8hDC5V2ZfLsUP9gc?ed=2560"
+                        "path": "/WKeZBxW29P8x0KVf?ed=2560"
                     }
                 },
                 "tag": "prox_8"
@@ -4096,13 +4096,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9E6Bcf.BPB-WOrKEr-PAnel-3gD.paGES.DEv"
+                        "serverName": "c4efE7A9.BpB-wORkeR-PANeL-3gD.PaGes.dEV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9E6bCF.BPB-WORKEr-pAnEL-3Gd.pAGeS.deV"
+                            "Host": "C4EFe7a9.BpB-worKeR-PAnel-3Gd.pagES.dEV"
                         },
-                        "path": "/q6ieJOJN26l0fsMG?ed=2560"
+                        "path": "/wSmmEfNhG0B0WhHx?ed=2560"
                     }
                 },
                 "tag": "prox_9"
@@ -4141,13 +4141,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6bCF.bPB-worKeR-Panel-3Gd.pagES.DEV"
+                        "serverName": "c4eFE7A9.bPB-wORkER-paNeL-3Gd.PAgEs.deV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6BCf.BPB-WoRKEr-PaNEl-3gD.PAgES.deV"
+                            "Host": "C4EFE7a9.Bpb-WORker-pANeL-3gD.pAges.dEV"
                         },
-                        "path": "/cFUl1lexIdxbbhky?ed=2560"
+                        "path": "/lLWX2U0gyCdI5ecB?ed=2560"
                     }
                 },
                 "tag": "prox_10"
@@ -4186,13 +4186,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6BCf.BPB-WoRKer-PaNEl-3gD.paGEs.deV"
+                        "serverName": "c4EFe7A9.bPb-woRkeR-paNEL-3GD.PAgES.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9E6bcf.BpB-wORkER-PANeL-3Gd.PageS.DeV"
+                            "Host": "c4EFe7a9.BPb-wOrkeR-panel-3GD.pAGES.dEv"
                         },
-                        "path": "/nCb7IXpvrBS5G3ux?ed=2560"
+                        "path": "/0WpyjdfBgCHqhQaa?ed=2560"
                     }
                 },
                 "tag": "prox_11"
@@ -4231,13 +4231,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9E6bcf.BPb-WOrKER-paNEl-3gD.PaGeS.deV"
+                        "serverName": "C4EFE7A9.BPb-wOrkER-PANel-3gD.paGES.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9e6bcF.BpB-woRKEr-PAnel-3gd.pagEs.dEV"
+                            "Host": "c4EfE7A9.bpB-worker-PanEL-3gd.pAgeS.Dev"
                         },
-                        "path": "/IhXX6Jtb0xwpcpq5?ed=2560"
+                        "path": "/Sgoysm3SxOon2a4U?ed=2560"
                     }
                 },
                 "tag": "prox_12"
@@ -4276,13 +4276,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9E6bcf.BPB-WorkEr-pAneL-3gD.PaGES.DEV"
+                        "serverName": "c4efe7a9.bPb-woRkeR-pANEL-3gd.pAGeS.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6BCF.BPB-wOrKer-paNEl-3gd.pAgEs.DEV"
+                            "Host": "C4EFE7A9.Bpb-WorkEr-PaNEL-3Gd.PaGes.dev"
                         },
-                        "path": "/OeOYTKbi7ffc9RaA?ed=2560"
+                        "path": "/Tc460Focci64Cgn8?ed=2560"
                     }
                 },
                 "tag": "prox_13"
@@ -4321,13 +4321,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6BCf.bPb-WorKER-PAnEL-3gd.pagES.dev"
+                        "serverName": "C4EFe7A9.bPb-wORkEr-pAnEL-3gD.PAGES.DeV"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9E6BcF.bPB-WorkEr-PANEl-3gD.PaGES.Dev"
+                            "Host": "C4EFe7A9.BPb-woRker-panel-3gD.PAgEs.dEv"
                         },
-                        "path": "/L27E0GaNckhEPJyQ?ed=2560"
+                        "path": "/WwnBp366ApZlyzul?ed=2560"
                     }
                 },
                 "tag": "prox_14"
@@ -4366,13 +4366,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9e6bCF.bpb-workeR-pANEl-3GD.PAGEs.deV"
+                        "serverName": "C4Efe7a9.BpB-wORKER-panEl-3Gd.PaGes.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9e6BCF.Bpb-WOrKeR-PAneL-3gd.PaGEs.DeV"
+                            "Host": "c4efE7a9.bPB-wOrKer-PAnEl-3Gd.pAgeS.deV"
                         },
-                        "path": "/qqsEndBRCeyvkFOv?ed=2560"
+                        "path": "/SeT2RhzLXCOLzQnu?ed=2560"
                     }
                 },
                 "tag": "prox_15"
@@ -4411,13 +4411,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9e6bcf.BPb-WOrkEr-pANEl-3gD.PaGes.dEV"
+                        "serverName": "C4efE7a9.BPB-Worker-pANeL-3gd.PagES.dEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9e6bCF.bPb-WoRkEr-PanEl-3GD.PAGES.dEv"
+                            "Host": "C4efE7a9.bPb-worKEr-paNEL-3GD.pagES.dEv"
                         },
-                        "path": "/CJ5kA61cmuBFMAHh?ed=2560"
+                        "path": "/ujP4RIgr3IHZaiIh?ed=2560"
                     }
                 },
                 "tag": "prox_16"
@@ -4456,13 +4456,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6BcF.Bpb-WOrKeR-PAnEL-3gd.PAGeS.DEV"
+                        "serverName": "C4Efe7a9.Bpb-wOrkEr-paneL-3gd.PaGES.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9E6BcF.Bpb-wORkER-PAnEl-3Gd.pAGes.DEV"
+                            "Host": "c4eFe7A9.BPB-WoRKER-PanEL-3GD.paGES.dEV"
                         },
-                        "path": "/Wmiv6OBKn4Sf2Xth?ed=2560"
+                        "path": "/2FFrg3nEk2NCye7r?ed=2560"
                     }
                 },
                 "tag": "prox_17"
@@ -4501,13 +4501,13 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8F9e6BCf.BpB-WorKEr-PanEl-3gD.PagEs.DEV"
+                        "serverName": "C4EFE7A9.BPb-wOrKeR-pAneL-3Gd.PAGEs.dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9E6BCF.bpb-WOrkEr-PANel-3Gd.paGes.Dev"
+                            "Host": "C4eFE7a9.bPb-WOrKeR-paneL-3gD.paGes.Dev"
                         },
-                        "path": "/XsmJSz6rxSFSOAoo?ed=2560"
+                        "path": "/y6n6tKunbnkeogfn?ed=2560"
                     }
                 },
                 "tag": "prox_18"
@@ -4546,61 +4546,16 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6BcF.bPb-wORkEr-paNEL-3Gd.PAges.deV"
+                        "serverName": "c4EFe7A9.bpB-woRKEr-PaNel-3gd.pageS.DEv"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8F9E6BcF.bpb-WorKeR-panEL-3gD.PAGES.dev"
+                            "Host": "C4EfE7a9.BpB-WorkER-PaNel-3gd.pAgES.dEv"
                         },
-                        "path": "/A3ptG5tv0kCykvFn?ed=2560"
+                        "path": "/8GgZ5hns6iT5qdRt?ed=2560"
                     }
                 },
                 "tag": "prox_19"
-            },
-            {
-                "protocol": "vless",
-                "settings": {
-                    "vnext": [
-                        {
-                            "address": "[2606:4700:310c::ac42:2f8e]",
-                            "port": 443,
-                            "users": [
-                                {
-                                    "encryption": "none",
-                                    "flow": "",
-                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
-                                    "level": 8,
-                                    "security": "auto"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "security": "tls",
-                    "sockopt": {
-                        "dialerProxy": "fragment",
-                        "tcpKeepAliveIdle": 100,
-                        "tcpNoDelay": true
-                    },
-                    "tlsSettings": {
-                        "allowInsecure": false,
-                        "fingerprint": "chrome",
-                        "alpn": [
-                            "h2",
-                            "http/1.1"
-                        ],
-                        "serverName": "8f9E6bCf.BPB-woRKER-PaNel-3gd.PaGes.DEv"
-                    },
-                    "wsSettings": {
-                        "headers": {
-                            "Host": "8F9E6BCf.bpb-wORker-paneL-3GD.PaGes.deV"
-                        },
-                        "path": "/2SQhpdhBizgzXBAV?ed=2560"
-                    }
-                },
-                "tag": "prox_20"
             },
             {
                 "protocol": "vless",
@@ -4636,13 +4591,58 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "8f9e6bcf.bPb-woRKER-pANel-3gd.Pages.dEV"
+                        "serverName": "c4efe7a9.bpb-WoRker-pAnel-3gD.PAGES.Dev"
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "8f9E6bCf.BPB-wOrker-pAnel-3Gd.PAgEs.DEV"
+                            "Host": "c4efe7A9.bpb-WorkEr-panEl-3gD.pAgEs.dev"
                         },
-                        "path": "/RJrWUzSlT9n1IWtz?ed=2560"
+                        "path": "/NQa0c9K1zqIUYo1k?ed=2560"
+                    }
+                },
+                "tag": "prox_20"
+            },
+            {
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "[2606:4700:310c::ac42:2f8e]",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "encryption": "none",
+                                    "flow": "",
+                                    "id": "7efa43f4-17b6-46ae-a62e-7b764df45057",
+                                    "level": 8,
+                                    "security": "auto"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpKeepAliveIdle": 100,
+                        "tcpNoDelay": true
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "fingerprint": "chrome",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "serverName": "C4efe7a9.BPb-WOrKER-PANEl-3gd.PAgEs.dEV"
+                    },
+                    "wsSettings": {
+                        "headers": {
+                            "Host": "C4efE7A9.bpb-WoRKer-pANEL-3GD.PageS.DEV"
+                        },
+                        "path": "/SeWiBMnm5AWgONQA?ed=2560"
                     }
                 },
                 "tag": "prox_21"
@@ -4754,18 +4754,18 @@
         "dns": {
             "hosts": {
                 "cloudflare-dns.com": [
-                    "104.16.248.249",
                     "104.16.249.249",
+                    "104.16.248.249",
                     "104.16.132.229",
                     "104.16.133.229",
-                    "104.18.203.232",
                     "104.18.202.232",
+                    "104.18.203.232",
+                    "173.245.59.103",
                     "172.64.33.103",
                     "108.162.193.103",
-                    "173.245.59.103",
                     "173.245.58.128",
-                    "172.64.32.128",
-                    "108.162.192.128"
+                    "108.162.192.128",
+                    "172.64.32.128"
                 ]
             },
             "servers": [
