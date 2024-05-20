@@ -54,7 +54,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ed6139ab.bpb-worker-panel-3gd.pages.dev",
+            "address": "8f9e6bcf.bpb-worker-panel-3gd.pages.dev",
             "port": 443,
             "users": [
               {
@@ -83,13 +83,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "ed6139AB.bpB-wORKer-PANel-3gD.PaGES.dEv"
+          "serverName": "8f9e6BCf.BpB-wOrKEr-pAnEL-3Gd.pageS.Dev"
         },
         "wsSettings": {
           "headers": {
-            "Host": "ED6139aB.bpB-WorKeR-panel-3gD.pAGEs.dev"
+            "Host": "8F9e6bcF.bPb-worker-PAnel-3GD.PAGeS.DEV"
           },
-          "path": "/3g94oobvMVjTHjej?ed=2560"
+          "path": "/WXJNb6I3tZP1a1KP?ed=2560"
         }
       },
       "tag": "prox_1"
@@ -128,13 +128,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "ed6139ab.BPB-workER-PaNeL-3gd.pAGes.DEv"
+          "serverName": "8f9e6bcF.BPB-worKER-PAnEl-3GD.pAGEs.dEv"
         },
         "wsSettings": {
           "headers": {
-            "Host": "ED6139Ab.bpB-worKeR-paNEL-3gD.PAgES.DEV"
+            "Host": "8f9e6BcF.BPB-WOrkER-PAnEL-3GD.PaGES.dEV"
           },
-          "path": "/sghNBUYYjFB5gZIQ?ed=2560"
+          "path": "/DmBIGWVFwCDowt1f?ed=2560"
         }
       },
       "tag": "prox_2"
@@ -173,13 +173,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "ED6139Ab.bpB-woRKer-pAnEl-3Gd.pAgEs.Dev"
+          "serverName": "8F9E6bCf.BpB-WORKeR-PANEl-3gD.PaGeS.DEV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "eD6139ab.bPB-worKEr-PAnEl-3gd.PAgeS.DEv"
+            "Host": "8f9e6BCf.BpB-woRkER-PanEl-3Gd.pAgeS.dEV"
           },
-          "path": "/RWvdUTCh1cHEkSw1?ed=2560"
+          "path": "/lS3fBqgdMGeM27sT?ed=2560"
         }
       },
       "tag": "prox_3"
@@ -218,13 +218,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "ED6139AB.bpB-Worker-paNel-3gD.PAGEs.dev"
+          "serverName": "8f9E6BCF.bPB-WoRKEr-pAnel-3GD.PageS.dEv"
         },
         "wsSettings": {
           "headers": {
-            "Host": "eD6139aB.bPB-WOrkEr-PAnEL-3GD.PaGES.deV"
+            "Host": "8F9e6bcf.BpB-WORkeR-PAnel-3GD.pAGeS.dev"
           },
-          "path": "/lk3vZBIlq2CudaKH?ed=2560"
+          "path": "/NFG2yUG3FE9ISQUe?ed=2560"
         }
       },
       "tag": "prox_4"
@@ -263,13 +263,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "eD6139ab.BPb-WoRKer-PanEL-3gD.paGeS.DEV"
+          "serverName": "8F9e6BcF.BPb-woRKEr-PAnEl-3GD.pagEs.DEV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "ed6139AB.bPb-worKER-PaneL-3gd.PageS.DEV"
+            "Host": "8f9e6bCf.BPB-worKEr-PaNEL-3gd.pAGES.DEV"
           },
-          "path": "/UNXMxHNGevmp3Jhk?ed=2560"
+          "path": "/ooqWpHafmEumlDxf?ed=2560"
         }
       },
       "tag": "prox_5"
@@ -308,13 +308,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "ED6139AB.BPB-WORKER-PanEL-3gD.pageS.dEV"
+          "serverName": "8f9E6bcf.BpB-wOrKer-paNEl-3GD.PAGes.deV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "ed6139ab.bPB-WorKer-Panel-3Gd.pAGes.dev"
+            "Host": "8F9e6bcF.bPb-wORkER-paneL-3GD.pAGES.dEv"
           },
-          "path": "/ezguutCNltPl3fai?ed=2560"
+          "path": "/EUiDfBgy0ZzJQ8tC?ed=2560"
         }
       },
       "tag": "prox_6"
@@ -353,13 +353,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "ED6139ab.bPb-WorkeR-PaNEL-3gD.pAgeS.DeV"
+          "serverName": "8F9E6BCF.BPb-WOrKER-PaNeL-3Gd.pageS.DEv"
         },
         "wsSettings": {
           "headers": {
-            "Host": "eD6139AB.BpB-wOrker-PaNEl-3gd.pAges.Dev"
+            "Host": "8F9E6bcf.bpB-woRKER-PaNEL-3GD.pageS.DeV"
           },
-          "path": "/ftkEarIp9VYqgD7K?ed=2560"
+          "path": "/lhKaAlbkCJYbRQWd?ed=2560"
         }
       },
       "tag": "prox_7"
@@ -398,13 +398,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "ed6139ab.BpB-WORker-pANEL-3GD.PagES.DEv"
+          "serverName": "8F9e6bCF.BpB-WOrKEr-PaNEl-3Gd.PaGeS.dEV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "eD6139Ab.bPb-worKEr-pAneL-3gD.PAgES.DEV"
+            "Host": "8f9e6BcF.bpb-workER-panel-3gd.PaGEs.DEV"
           },
-          "path": "/5eqDagFMojmg8iPX?ed=2560"
+          "path": "/8hDC5V2ZfLsUP9gc?ed=2560"
         }
       },
       "tag": "prox_8"
@@ -443,13 +443,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "eD6139aB.BPb-WORKEr-pAnel-3Gd.PAGeS.DEv"
+          "serverName": "8f9E6Bcf.BPB-WOrKEr-PAnel-3gD.paGES.DEv"
         },
         "wsSettings": {
           "headers": {
-            "Host": "ED6139Ab.bPB-wORkEr-PanEl-3GD.PAGes.DEv"
+            "Host": "8f9E6bCF.BPB-WORKEr-pAnEL-3Gd.pAGeS.deV"
           },
-          "path": "/uxiYeGWIqywXaLfw?ed=2560"
+          "path": "/q6ieJOJN26l0fsMG?ed=2560"
         }
       },
       "tag": "prox_9"
@@ -488,13 +488,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "ed6139Ab.BPB-workeR-PAnel-3GD.PaGES.deV"
+          "serverName": "8f9e6bCF.bPB-worKeR-Panel-3Gd.pagES.DEV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "ED6139Ab.bPB-WoRkER-PaNeL-3gd.PAGes.DEV"
+            "Host": "8f9e6BCf.BPB-WoRKEr-PaNEl-3gD.PAgES.deV"
           },
-          "path": "/7Cz7iOzxRDLRgs3y?ed=2560"
+          "path": "/cFUl1lexIdxbbhky?ed=2560"
         }
       },
       "tag": "prox_10"
@@ -533,13 +533,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "Ed6139AB.Bpb-WORkeR-PaNEl-3Gd.PAGes.dEV"
+          "serverName": "8f9e6BCf.BPB-WoRKer-PaNEl-3gD.paGEs.deV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "eD6139Ab.BPb-WoRKer-paNeL-3gd.paGes.dEv"
+            "Host": "8f9E6bcf.BpB-wORkER-PANeL-3Gd.PageS.DeV"
           },
-          "path": "/CvxACIabIGksvJCw?ed=2560"
+          "path": "/nCb7IXpvrBS5G3ux?ed=2560"
         }
       },
       "tag": "prox_11"
@@ -578,13 +578,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "ED6139ab.BpB-wORKer-pANEL-3gD.paGes.dev"
+          "serverName": "8f9E6bcf.BPb-WOrKER-paNEl-3gD.PaGeS.deV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "ED6139ab.Bpb-woRKER-paNeL-3GD.PAgEs.Dev"
+            "Host": "8F9e6bcF.BpB-woRKEr-PAnel-3gd.pagEs.dEV"
           },
-          "path": "/IUX6KigxzHcxkKqy?ed=2560"
+          "path": "/IhXX6Jtb0xwpcpq5?ed=2560"
         }
       },
       "tag": "prox_12"
@@ -623,13 +623,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "eD6139aB.Bpb-woRKeR-PANEl-3Gd.paGEs.DEv"
+          "serverName": "8f9E6bcf.BPB-WorkEr-pAneL-3gD.PaGES.DEV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "ED6139aB.bpB-woRKER-PAnEl-3Gd.pAgEs.dev"
+            "Host": "8f9e6BCF.BPB-wOrKer-paNEl-3gd.pAgEs.DEV"
           },
-          "path": "/z7sUMhjGW5jhReZ1?ed=2560"
+          "path": "/OeOYTKbi7ffc9RaA?ed=2560"
         }
       },
       "tag": "prox_13"
@@ -668,13 +668,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "eD6139ab.bPB-WOrKEr-PAnEl-3GD.PAGeS.dEv"
+          "serverName": "8f9e6BCf.bPb-WorKER-PAnEL-3gd.pagES.dev"
         },
         "wsSettings": {
           "headers": {
-            "Host": "Ed6139ab.BpB-wOrKER-pANeL-3GD.paGeS.dEv"
+            "Host": "8F9E6BcF.bPB-WorkEr-PANEl-3gD.PaGES.Dev"
           },
-          "path": "/akC8fqw52YP3m0lV?ed=2560"
+          "path": "/L27E0GaNckhEPJyQ?ed=2560"
         }
       },
       "tag": "prox_14"
@@ -713,13 +713,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "ed6139aB.BPb-woRKEr-PaNEl-3Gd.PaGES.Dev"
+          "serverName": "8F9e6bCF.bpb-workeR-pANEl-3GD.PAGEs.deV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "Ed6139AB.bpB-woRkeR-paNEl-3Gd.PaGeS.deV"
+            "Host": "8f9e6BCF.Bpb-WOrKeR-PAneL-3gd.PaGEs.DeV"
           },
-          "path": "/JGOLTOgMxXXpY5yx?ed=2560"
+          "path": "/qqsEndBRCeyvkFOv?ed=2560"
         }
       },
       "tag": "prox_15"
@@ -758,13 +758,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "ed6139AB.BpB-wOrker-PaNEl-3GD.pAgEs.dev"
+          "serverName": "8F9e6bcf.BPb-WOrkEr-pANEl-3gD.PaGes.dEV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "Ed6139Ab.bpB-Worker-pANEL-3gD.PAgES.deV"
+            "Host": "8F9e6bCF.bPb-WoRkEr-PanEl-3GD.PAGES.dEv"
           },
-          "path": "/DXPsZvU1xmuhhB2V?ed=2560"
+          "path": "/CJ5kA61cmuBFMAHh?ed=2560"
         }
       },
       "tag": "prox_16"
@@ -803,13 +803,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "Ed6139aB.bPb-woRKER-PAnEL-3gd.PagES.dEV"
+          "serverName": "8f9e6BcF.Bpb-WOrKeR-PAnEL-3gd.PAGeS.DEV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "Ed6139aB.BpB-WORKer-Panel-3Gd.pAgES.dev"
+            "Host": "8F9E6BcF.Bpb-wORkER-PAnEl-3Gd.pAGes.DEV"
           },
-          "path": "/0KZxQsgDbHxIvSmW?ed=2560"
+          "path": "/Wmiv6OBKn4Sf2Xth?ed=2560"
         }
       },
       "tag": "prox_17"
@@ -848,13 +848,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "Ed6139aB.bpB-WORker-PaNel-3gD.pAGES.DeV"
+          "serverName": "8F9e6BCf.BpB-WorKEr-PanEl-3gD.PagEs.DEV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "Ed6139aB.BPB-workEr-PanEL-3GD.pagES.DeV"
+            "Host": "8f9E6BCF.bpb-WOrkEr-PANel-3Gd.paGes.Dev"
           },
-          "path": "/gTqToFHHL4sq3wHe?ed=2560"
+          "path": "/XsmJSz6rxSFSOAoo?ed=2560"
         }
       },
       "tag": "prox_18"
@@ -893,13 +893,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "ed6139aB.BpB-wOrKeR-PaneL-3gd.PaGes.DEV"
+          "serverName": "8f9e6BcF.bPb-wORkEr-paNEL-3Gd.PAges.deV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "ed6139ab.bPB-wORKEr-paneL-3Gd.PaGes.dEv"
+            "Host": "8F9E6BcF.bpb-WorKeR-panEL-3gD.PAGES.dev"
           },
-          "path": "/7vZxrGs23J0DDYWh?ed=2560"
+          "path": "/A3ptG5tv0kCykvFn?ed=2560"
         }
       },
       "tag": "prox_19"
@@ -938,13 +938,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "Ed6139AB.bPb-WORKer-PAnEL-3GD.paGES.DEv"
+          "serverName": "8f9E6bCf.BPB-woRKER-PaNel-3gd.PaGes.DEv"
         },
         "wsSettings": {
           "headers": {
-            "Host": "ED6139Ab.bPB-WORKEr-panEL-3GD.pAGES.DeV"
+            "Host": "8F9E6BCf.bpb-wORker-paneL-3GD.PaGes.deV"
           },
-          "path": "/RWW8lT8seetlvWkv?ed=2560"
+          "path": "/2SQhpdhBizgzXBAV?ed=2560"
         }
       },
       "tag": "prox_20"
@@ -983,13 +983,13 @@
             "h2",
             "http/1.1"
           ],
-          "serverName": "ED6139ab.BPB-wORkER-pAnEl-3gd.pAgeS.deV"
+          "serverName": "8f9e6bcf.bPb-woRKER-pANel-3gd.Pages.dEV"
         },
         "wsSettings": {
           "headers": {
-            "Host": "ED6139ab.bPb-wORkER-paneL-3gD.paGES.dEv"
+            "Host": "8f9E6bCf.BPB-wOrker-pAnel-3Gd.PAgEs.DEV"
           },
-          "path": "/AcbYl7b6YifTErNF?ed=2560"
+          "path": "/RJrWUzSlT9n1IWtz?ed=2560"
         }
       },
       "tag": "prox_21"
