@@ -1,8 +1,5 @@
 #profile-title: IRancell-serverIR🇮🇷
 #profile-update-interval: 1
-#profile-title: Custom-IRancell
-#profile-update-interval: 1
-
 {
     "log": {
         "disabled": false,
