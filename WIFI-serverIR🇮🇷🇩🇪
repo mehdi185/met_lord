@@ -1,14 +1,13 @@
 #profile-title: 🇮🇷Wifi-Mokhaberat🇩🇪
 #profile-update-interval: 1
-
 {
   "outbounds": 
   [
     {
       "type": "wireguard",
       "tag": "Wifi-Mokhaberat1🇮🇷",
-      "server": "188.114.96.236",
-      "server_port": 8319,
+      "server": "188.114.96.255",
+      "server_port": 8742,
 
       "local_address": [
         "172.16.0.2/32",
@@ -25,8 +24,8 @@
       "type": "wireguard",
       "tag": "Wifi-Mokhaberat1🇩🇪",
       "detour": "Wifi-Mokhaberat1🇮🇷",
-      "server": "188.114.97.103",
-      "server_port": 8319,
+      "server": "188.114.96.255",
+      "server_port": 8742,
       
       "local_address": [
           "172.16.0.2/32",
@@ -75,5 +74,4 @@
     }
   ]
 }
-
 
