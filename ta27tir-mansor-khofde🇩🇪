@@ -1,0 +1,76 @@
+#profile-title: 🇮🇷ta27tir-mansor-khofde🇩🇪
+#profile-update-interval: 1
+{
+  "outbounds": 
+  [
+    {
+      "type": "wireguard",
+      "tag": "Wifi-Mokhaberat1🇮🇷",
+      "server": "162.159.192.182",
+      "server_port": 1843,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8fb0:6768:7f1a:62a1:b93e/128"
+      ],
+      "private_key": "QOu5+515PSEX5k4W0kSmdwPHL/3BN4COFkdkycmmQWY=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [179,216,22],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Wifi-Mokhaberat1🇩🇪",
+      "detour": "Wifi-Mokhaberat1🇮🇷",
+      "server": "162.159.192.182",
+      "server_port": 1843,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8320:849e:3c73:bc6b:8de4/128"
+      ],
+      "private_key": "6Ell+y0ENQxX/8B1H5DjvIMQHnLDMdXtS25ZY5KiBkU=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [241,217,85],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    },{
+      "type": "wireguard",
+      "tag": "IRancell🇮🇷",
+      "server": "188.114.98.14",
+      "server_port": 4198,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8fb0:6768:7f1a:62a1:b93e/128"
+      ],
+      "private_key": "QOu5+515PSEX5k4W0kSmdwPHL/3BN4COFkdkycmmQWY=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [179,216,22],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRancell🇩🇪",
+      "detour": "IRancell🇮🇷",
+      "server": "188.114.96.236",
+      "server_port": 4198,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8320:849e:3c73:bc6b:8de4/128"
+      ],
+      "private_key": "6Ell+y0ENQxX/8B1H5DjvIMQHnLDMdXtS25ZY5KiBkU=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [241,217,85],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    }
+  ]
+}
