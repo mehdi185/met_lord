@@ -22,8 +22,8 @@
     },
     {
       "type": "wireguard",
-      "tag": "Germany-server@Custom-V2ray-M🇩🇪",
-      "detour": "IR-server@Custom-v2ray-M🇮🇷",
+      "tag": "Germany@Custom-V2ray-M🇩🇪",
+      "detour": "IR-@Custom-v2ray-M🇮🇷",
       "server": "162.159.192.182",
       "server_port": 1843,
       
