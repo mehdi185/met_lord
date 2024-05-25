@@ -22,7 +22,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "IR-server2🇮🇷",
+      "tag": "Germany-server🇩🇪",
       "detour": "IR-server🇮🇷",
       "server": "162.159.192.182",
       "server_port": 1843,
