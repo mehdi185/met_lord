@@ -5,7 +5,7 @@
   [
     {
       "type": "wireguard",
-      "tag": "IR-server@Custom-v2ray-M🇮🇷",
+      "tag": "IR-@Custom-v2ray-M🇮🇷",
       "server": "162.159.192.182",
       "server_port": 1843,
 
