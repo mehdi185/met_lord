@@ -1,16 +1,77 @@
 //71c1cd04.bpb-worker-panel-3gd.pages.dev
-
-#profile-title:✰Custom-V2ray-Unlimited🇺🇸
+#profile-title: 🇮🇷Wifi-Mokhaberat-ta15tir🇩🇪
 #profile-update-interval: 1
+{
+  "outbounds": 
+  [
+    {
+      "type": "wireguard",
+      "tag": "Wifi-Mokhaberat1🇮🇷",
+      "server": "162.159.192.182",
+      "server_port": 1843,
 
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.99.183:8443?security=tls&sni=71c1Cd04.BPb-WORkEr-PANEl-3gd.PAGes.dEv&alpn=h2,http/1.1&fp=randomized&type=ws&path=/OKaOKOyGXsELC6f2?ed%3D2560&host=71c1cD04.bPb-WorkER-pAneL-3Gd.PAgES.dEv&encryption=none#%F0%9F%87%BA%F0%9F%87%B3Safe%F0%9F%87%AB%F0%9F%87%AE+list%F0%9F%87%A9%F0%9F%87%AA%203
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.99.203:8443?security=tls&sni=71c1Cd04.bPB-WorKeR-paNeL-3gD.PAgEs.dev&alpn=h2,http/1.1&fp=randomized&type=ws&path=/Ful8ptNgkeLhrRBN?ed%3D2560&host=71c1cd04.bpb-wOrKeR-paneL-3Gd.PAgEs.dEV&encryption=none#%F0%9F%87%BA%F0%9F%87%B3Safe%F0%9F%87%AB%F0%9F%87%AE+list%F0%9F%87%A9%F0%9F%87%AA%204
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.80.11:8443?security=tls&sni=71C1Cd04.bPb-workeR-paNEL-3Gd.Pages.dEV&alpn=h2,http/1.1&fp=randomized&type=ws&path=/ah5yo5Y70NkqW956?ed%3D2560&host=71c1Cd04.bpb-workER-pANEL-3gD.pAgEs.Dev&encryption=none#%F0%9F%87%BA%F0%9F%87%B3Safe%F0%9F%87%AB%F0%9F%87%AE+list%F0%9F%87%A9%F0%9F%87%AA%205
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.99.191:8443?security=tls&sni=71c1cd04.BPb-WORkeR-PaneL-3GD.paGeS.dEv&alpn=h2,http/1.1&fp=randomized&type=ws&path=/Pbs59cghWd7aDKpO?ed%3D2560&host=71c1cD04.bPB-WorKer-paNEL-3gD.pAges.dEV&encryption=none#%F0%9F%87%BA%F0%9F%87%B3Safe%F0%9F%87%AB%F0%9F%87%AE+list%F0%9F%87%A9%F0%9F%87%AA%206
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.66.214.213:8443?security=tls&sni=71c1CD04.Bpb-worKer-PAneL-3GD.pagEs.DEv&alpn=h2,http/1.1&fp=randomized&type=ws&path=/XpbfuzuUGFXkcgH1?ed%3D2560&host=71C1cd04.bpb-WORKeR-pAnEl-3gD.pAGEs.DeV&encryption=none#%F0%9F%87%BA%F0%9F%87%B3Safe%F0%9F%87%AB%F0%9F%87%AE+list%F0%9F%87%A9%F0%9F%87%AA%207
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.66.1.119:8443?security=tls&sni=71C1CD04.bPb-wORkER-pAnel-3GD.pagES.deV&alpn=h2,http/1.1&fp=randomized&type=ws&path=/A4JjlWY7pGNiipdk?ed%3D2560&host=71c1CD04.bPB-wOrKer-PANEL-3gD.Pages.Dev&encryption=none#%F0%9F%87%BA%F0%9F%87%B3Safe%F0%9F%87%AB%F0%9F%87%AE+list%F0%9F%87%A9%F0%9F%87%AA%208
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.87.112:8443?security=tls&sni=71C1CD04.bpB-WorKer-pANEl-3Gd.pAgES.dev&alpn=h2,http/1.1&fp=randomized&type=ws&path=/BbYQuLd3CFMgwru9?ed%3D2560&host=71c1cD04.BpB-worKEr-PaneL-3Gd.PAGeS.DEv&encryption=none#%F0%9F%87%BA%F0%9F%87%B3Safe%F0%9F%87%AB%F0%9F%87%AE+list%F0%9F%87%A9%F0%9F%87%AA%209
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.75.254:8443?security=tls&sni=71c1Cd04.BPB-WorkeR-pAnEl-3gd.PAGeS.Dev&alpn=h2,http/1.1&fp=randomized&type=ws&path=/xr9rM1Lz0khRKxiV?ed%3D2560&host=71C1Cd04.bPB-wOrkEr-pAnEl-3gD.Pages.Dev&encryption=none#%F0%9F%87%BA%F0%9F%87%B3Safe%F0%9F%87%AB%F0%9F%87%AE+list%F0%9F%87%A9%F0%9F%87%AA%2010
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.114.224:443?security=tls&sni=71C1cd04.bPb-worker-PANel-3gD.paGES.dEV&alpn=h2,http/1.1&fp=randomized&type=ws&path=/x0pdow1fezcJn1BM?ed%3D2560&host=71c1CD04.BPb-wOrKeR-pAneL-3gD.pagEs.dEV&encryption=none#%F0%9F%87%BA%F0%9F%87%B3Safe%F0%9F%87%AB%F0%9F%87%AE+list%F0%9F%87%A9%F0%9F%87%AA%2011
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.66.44.114:443?security=tls&sni=71c1Cd04.BPB-WORkeR-PAnEl-3GD.PAGEs.dEV&alpn=h2,http/1.1&fp=randomized&type=ws&path=/SFiR4IGC6uiCssbe?ed%3D2560&host=71c1CD04.BpB-workEr-Panel-3gD.pAges.dEV&encryption=none#%F0%9F%87%BA%F0%9F%87%B3Safe%F0%9F%87%AB%F0%9F%87%AE+list%F0%9F%87%A9%F0%9F%87%AA%2012
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.66.47.142:443?security=tls&sni=71c1CD04.BPB-woRKEr-panEl-3GD.paGeS.DEv&alpn=h2,http/1.1&fp=randomized&type=ws&path=/ispztx3PfC3jTI96?ed%3D2560&host=71C1CD04.Bpb-WORker-PanEl-3Gd.PAGeS.dev&encryption=none#%F0%9F%87%BA%F0%9F%87%B3Safe%F0%9F%87%AB%F0%9F%87%AE+list%F0%9F%87%A9%F0%9F%87%AA%2013
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8fb0:6768:7f1a:62a1:b93e/128"
+      ],
+      "private_key": "QOu5+515PSEX5k4W0kSmdwPHL/3BN4COFkdkycmmQWY=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [179,216,22],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Wifi-Mokhaberat1🇩🇪",
+      "detour": "Wifi-Mokhaberat1🇮🇷",
+      "server": "162.159.192.182",
+      "server_port": 1843,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8320:849e:3c73:bc6b:8de4/128"
+      ],
+      "private_key": "6Ell+y0ENQxX/8B1H5DjvIMQHnLDMdXtS25ZY5KiBkU=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [241,217,85],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    },{
+      "type": "wireguard",
+      "tag": "IRancell🇮🇷",
+      "server": "188.114.98.14",
+      "server_port": 4198,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8fb0:6768:7f1a:62a1:b93e/128"
+      ],
+      "private_key": "QOu5+515PSEX5k4W0kSmdwPHL/3BN4COFkdkycmmQWY=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [179,216,22],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRancell🇩🇪",
+      "detour": "IRancell🇮🇷",
+      "server": "188.114.96.236",
+      "server_port": 4198,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8320:849e:3c73:bc6b:8de4/128"
+      ],
+      "private_key": "6Ell+y0ENQxX/8B1H5DjvIMQHnLDMdXtS25ZY5KiBkU=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [241,217,85],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    }
+  ]
+}
