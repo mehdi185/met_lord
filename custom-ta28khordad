@@ -1,9 +1,77 @@
 #profile-title: Custom-V2ray-ta-28-khordad
 #profile-update-interval: 1
 
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@104.19.28.38:443?security=tls&sni=5882C0FA.BpB-wORkER-PanEl-3gd.paGEs.dEV&fp=android&type=ws&path=/oWy37hAD3jOZKVdo?ed%3D2560&host=5882c0FA.bpB-WoRkeR-paNEl-3gd.PaGES.dEV&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%201
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@104.16.102.1:443?security=tls&sni=5882c0fa.BPb-wOrker-PAneL-3gD.PAgEs.dEv&fp=chrome&type=ws&path=/NuJXRR9fCzaa9jLe?ed%3D2560&host=5882c0fA.bPb-WORKEr-PanEl-3Gd.pages.dev&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%202
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@104.26.13.80:443?security=tls&sni=5882c0Fa.Bpb-wOrkER-paNel-3gD.PAgEs.dev&fp=chrome&type=ws&path=/PtUjXSSoqAGKaD12?ed%3D2560&host=5882c0fa.bPb-wOrKeR-PaNEl-3Gd.PAgES.DEV&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%203
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@173.245.49.130:443?security=tls&sni=5882C0Fa.bpb-WorKeR-paNeL-3GD.paGEs.DEV&fp=chrome&type=ws&path=/9eu4W5R7TiG4n5Pk?ed%3D2560&host=5882C0fA.bPB-wORkeR-pANEl-3gD.PAgES.DeV&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%204
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@173.245.49.140:443?security=tls&sni=5882C0Fa.bpb-WorKeR-paNeL-3GD.paGEs.DEV&fp=chrome&type=ws&path=/9eu4W5R7TiG4n5Pk?ed%3D2560&host=5882C0fA.bPB-wORkeR-pANEl-3gD.PAgES.DeV&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%205
-// buy me coffe BTC : bc1qnh2l9khwndf3pcg9nwlcjqkzyrnrpsu0x8m9re 
+{
+  "outbounds": 
+  [
+    {
+      "type": "wireguard",
+      "tag": "Wifi-Mokhaberat1🇮🇷",
+      "server": "188.114.98.227",
+      "server_port": 8886,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8fb0:6768:7f1a:62a1:b93e/128"
+      ],
+      "private_key": "QOu5+515PSEX5k4W0kSmdwPHL/3BN4COFkdkycmmQWY=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [179,216,22],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Wifi-Mokhaberat1🇩🇪",
+      "detour": "Wifi-Mokhaberat1🇮🇷",
+      "server": "188.114.98.227",
+      "server_port": 8886,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8320:849e:3c73:bc6b:8de4/128"
+      ],
+      "private_key": "6Ell+y0ENQxX/8B1H5DjvIMQHnLDMdXtS25ZY5KiBkU=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [241,217,85],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    },{
+      "type": "wireguard",
+      "tag": "IRancell🇮🇷",
+      "server": "188.114.98.14",
+      "server_port": 4198,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8fb0:6768:7f1a:62a1:b93e/128"
+      ],
+      "private_key": "QOu5+515PSEX5k4W0kSmdwPHL/3BN4COFkdkycmmQWY=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [179,216,22],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRancell🇩🇪",
+      "detour": "IRancell🇮🇷",
+      "server": "188.114.96.236",
+      "server_port": 4198,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8320:849e:3c73:bc6b:8de4/128"
+      ],
+      "private_key": "6Ell+y0ENQxX/8B1H5DjvIMQHnLDMdXtS25ZY5KiBkU=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [241,217,85],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    }
+  ]
+}
