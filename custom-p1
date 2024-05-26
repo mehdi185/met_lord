@@ -1,13 +1,76 @@
 #profile-title: Custom🇩🇪V2ray-M
 #profile-update-interval: 1
+{
+  "outbounds": 
+  [
+    {
+      "type": "wireguard",
+      "tag": "Wifi-Mokhaberat1🇮🇷",
+      "server": "188.114.98.227",
+      "server_port": 8886,
 
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.99.202:443?security=tls&sni=B3155894.Bpb-WORKer-PaNeL-3Gd.paGES.deV&fp=chrome&type=ws&path=/h82ltsJIRRY4UEH2?ed%3D2560&host=B3155894.BPB-WoRKeR-panEl-3gD.pAGes.DEv&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%201
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.75.254:443?security=tls&sni=b3155894.bpB-woRKEr-Panel-3GD.pAGEs.dEV&fp=chrome&type=ws&path=/t5MDcAekyB8IVBty?ed%3D2560&host=b3155894.Bpb-woRKER-paneL-3Gd.PaGEs.DeV&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%202
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.66.44.114:443?security=tls&sni=B3155894.bpB-WORkER-PaneL-3Gd.pAgES.DEv&fp=chrome&type=ws&path=/esIoD07baHNbfQHl?ed%3D2560&host=b3155894.BPB-worKER-panEl-3Gd.PaGes.dev&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%203
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.114.224:443?security=tls&sni=b3155894.BPb-WoRkER-PANEl-3Gd.PAgEs.dev&fp=chrome&type=ws&path=/RqYROAskshAsvlcs?ed%3D2560&host=B3155894.Bpb-woRKER-pANel-3GD.pAges.DEv&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%204
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.80.11:443?security=tls&sni=B3155894.BPB-workeR-panEL-3Gd.paGes.DEv&fp=chrome&type=ws&path=/Gvfnaf2zgbb1DXqv?ed%3D2560&host=B3155894.Bpb-wORker-PANel-3gd.paGes.dev&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%203
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.66.214.213:443?security=tls&sni=b3155894.bPb-WORkEr-PANeL-3Gd.PaGes.dEV&fp=chrome&type=ws&path=/vWp5rQXaOK9SU4DM?ed%3D2560&host=b3155894.Bpb-WoRKeR-paNeL-3Gd.pAgEs.DEV&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%205
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.99.173:443?security=tls&sni=B3155894.BPB-WOrKer-PANEL-3gd.pAGEs.dEv&fp=chrome&type=ws&path=/UonyQU32p7p9E9Tk?ed%3D2560&host=B3155894.bPb-WoRkeR-PAnel-3GD.PaGES.dev&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%206
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.67.99.193:443?security=tls&sni=b3155894.bpb-WorkeR-pANEl-3Gd.PAGES.dev&fp=chrome&type=ws&path=/qSdlorC4aO4nRzuG?ed%3D2560&host=b3155894.bpB-workEr-Panel-3GD.pAgES.DEV&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%207
-vless://7efa43f4-17b6-46ae-a62e-7b764df45057@172.66.47.142:443?security=tls&sni=b3155894.bpB-WorkER-panEL-3gD.PaGes.DEv&fp=chrome&type=ws&path=/yj4KYymWg9kGxYVq?ed%3D2560&host=B3155894.Bpb-workEr-PaNEL-3GD.paGES.DeV&encryption=none#Germany(%F0%9F%87%A9%F0%9F%87%AA)%208
-// buy me coffe BTC : bc1qnh2l9khwndf3pcg9nwlcjqkzyrnrpsu0x8m9re 
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8fb0:6768:7f1a:62a1:b93e/128"
+      ],
+      "private_key": "QOu5+515PSEX5k4W0kSmdwPHL/3BN4COFkdkycmmQWY=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [179,216,22],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Wifi-Mokhaberat1🇩🇪",
+      "detour": "Wifi-Mokhaberat1🇮🇷",
+      "server": "188.114.98.227",
+      "server_port": 8886,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8320:849e:3c73:bc6b:8de4/128"
+      ],
+      "private_key": "6Ell+y0ENQxX/8B1H5DjvIMQHnLDMdXtS25ZY5KiBkU=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [241,217,85],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    },{
+      "type": "wireguard",
+      "tag": "IRancell🇮🇷",
+      "server": "188.114.98.14",
+      "server_port": 4198,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8fb0:6768:7f1a:62a1:b93e/128"
+      ],
+      "private_key": "QOu5+515PSEX5k4W0kSmdwPHL/3BN4COFkdkycmmQWY=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [179,216,22],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "IRancell🇩🇪",
+      "detour": "IRancell🇮🇷",
+      "server": "188.114.96.236",
+      "server_port": 4198,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8320:849e:3c73:bc6b:8de4/128"
+      ],
+      "private_key": "6Ell+y0ENQxX/8B1H5DjvIMQHnLDMdXtS25ZY5KiBkU=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [241,217,85],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    }
+  ]
+}
