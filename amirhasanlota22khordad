@@ -1,4 +1,4 @@
-#profile-title: 🇮🇷ta22khordad🇩🇪
+#profile-title: 🇮🇷unlimited🇩🇪
 #profile-update-interval: 1
 {
   "outbounds": 
@@ -6,8 +6,8 @@
     {
       "type": "wireguard",
       "tag": "Wifi-Mokhaberat1🇮🇷",
-      "server": "162.159.192.161",
-      "server_port": 8319,
+      "server": "188.114.98.227",
+      "server_port": 8886,
 
       "local_address": [
         "172.16.0.2/32",
@@ -24,8 +24,8 @@
       "type": "wireguard",
       "tag": "Wifi-Mokhaberat1🇩🇪",
       "detour": "Wifi-Mokhaberat1🇮🇷",
-      "server": "162.159.192.161",
-      "server_port": 8319,
+      "server": "188.114.98.227",
+      "server_port": 8886,
       
       "local_address": [
           "172.16.0.2/32",
