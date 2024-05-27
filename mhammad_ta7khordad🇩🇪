@@ -1,6 +1,5 @@
 #profile-title: 🇮🇷mhammad_ta7khordad🇩🇪
 #profile-update-interval: 1
-
 {
   "outbounds": 
   [
@@ -19,13 +18,13 @@
       "reserved": [179,216,22],
 
       "mtu": 1280,
-      "fake_packets": "5-10"
+      "fake_packets": "5-7"
     },
     {
       "type": "wireguard",
       "tag": "Wifi-Mokhaberat1🇩🇪",
       "detour": "Wifi-Mokhaberat1🇮🇷",
-      "server": "188.114.96.242",
+      "server": "188.114.98.227",
       "server_port": 8886,
       
       "local_address": [
@@ -37,7 +36,7 @@
       "reserved": [241,217,85],  
 
       "mtu": 1120,
-      "fake_packets": "5-10"
+      "fake_packets": "5-7"
     },{
       "type": "wireguard",
       "tag": "IRancell🇮🇷",
@@ -53,7 +52,7 @@
       "reserved": [179,216,22],
 
       "mtu": 1280,
-      "fake_packets": "5-10"
+      "fake_packets": "5-7"
     },
     {
       "type": "wireguard",
@@ -71,7 +70,7 @@
       "reserved": [241,217,85],  
 
       "mtu": 1120,
-      "fake_packets": "5-10"
+      "fake_packets": "5-7"
     }
   ]
 }
