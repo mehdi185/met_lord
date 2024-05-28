@@ -1,5 +1,6 @@
 #profile-title: 🇮🇷unlimited🇩🇪
 #profile-update-interval: 1
+
 {
   "outbounds": 
   [
@@ -18,7 +19,7 @@
       "reserved": [179,216,22],
 
       "mtu": 1280,
-      "fake_packets": "5-10"
+      "fake_packets": "5-7"
     },
     {
       "type": "wireguard",
@@ -36,7 +37,7 @@
       "reserved": [241,217,85],  
 
       "mtu": 1120,
-      "fake_packets": "5-10"
+      "fake_packets": "5-7"
     },{
       "type": "wireguard",
       "tag": "IRancell🇮🇷",
@@ -52,7 +53,7 @@
       "reserved": [179,216,22],
 
       "mtu": 1280,
-      "fake_packets": "5-10"
+      "fake_packets": "5-7"
     },
     {
       "type": "wireguard",
@@ -70,7 +71,7 @@
       "reserved": [241,217,85],  
 
       "mtu": 1120,
-      "fake_packets": "5-10"
+      "fake_packets": "5-7"
     }
   ]
 }
