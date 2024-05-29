@@ -1,14 +1,15 @@
 #profile-title: 🇮🇷unlimited🇩🇪
 #profile-update-interval: 1
-
+#profile-title: 🇮🇷unlimited vip🇩🇪
+#profile-update-interval: 1
 {
   "outbounds": 
   [
     {
       "type": "wireguard",
       "tag": "Wifi-Mokhaberat1🇮🇷",
-      "server": "188.114.98.227",
-      "server_port": 8886,
+      "server": "188.114.98.168",
+      "server_port": 4198,
 
       "local_address": [
         "172.16.0.2/32",
@@ -19,14 +20,14 @@
       "reserved": [179,216,22],
 
       "mtu": 1280,
-      "fake_packets": "5-7"
+      "fake_packets": "5-10"
     },
     {
       "type": "wireguard",
       "tag": "Wifi-Mokhaberat1🇩🇪",
       "detour": "Wifi-Mokhaberat1🇮🇷",
-      "server": "188.114.98.227",
-      "server_port": 8886,
+      "server": "188.114.98.168",
+      "server_port": 4198,
       
       "local_address": [
           "172.16.0.2/32",
@@ -37,7 +38,7 @@
       "reserved": [241,217,85],  
 
       "mtu": 1120,
-      "fake_packets": "5-7"
+      "fake_packets": "5-10"
     },{
       "type": "wireguard",
       "tag": "IRancell🇮🇷",
@@ -53,7 +54,7 @@
       "reserved": [179,216,22],
 
       "mtu": 1280,
-      "fake_packets": "5-7"
+      "fake_packets": "5-10"
     },
     {
       "type": "wireguard",
@@ -71,7 +72,7 @@
       "reserved": [241,217,85],  
 
       "mtu": 1120,
-      "fake_packets": "5-7"
+      "fake_packets": "5-10"
     }
   ]
 }
