@@ -6,8 +6,8 @@
     {
       "type": "wireguard",
       "tag": "Wifi-Mokhaberat1🇮🇷",
-      "server": "188.114.97.9",
-      "server_port": 5956,
+      "server": "188.114.97.130",
+      "server_port": 3138,
 
       "local_address": [
         "172.16.0.2/32",
@@ -24,8 +24,8 @@
       "type": "wireguard",
       "tag": "Wifi-Mokhaberat1🇩🇪",
       "detour": "Wifi-Mokhaberat1🇮🇷",
-      "server": "188.114.97.9",
-      "server_port": 5956,
+      "server": "188.114.97.130",
+      "server_port": 3138,
       
       "local_address": [
           "172.16.0.2/32",
