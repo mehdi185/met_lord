@@ -1,17 +1,13 @@
-//079b9769.bpb-worker-panel-3gd.pages.dev
-
-
-#profile-title:✰Custom-V2ray-Unlimited🇺🇸
+#profile-title: 🇮🇷unlimited🇩🇪
 #profile-update-interval: 1
-
 {
   "outbounds": 
   [
     {
       "type": "wireguard",
       "tag": "Wifi-Mokhaberat1🇮🇷",
-      "server": "188.114.98.168",
-      "server_port": 4198,
+      "server": "188.114.97.130",
+      "server_port": 3138,
 
       "local_address": [
         "172.16.0.2/32",
@@ -28,8 +24,8 @@
       "type": "wireguard",
       "tag": "Wifi-Mokhaberat1🇩🇪",
       "detour": "Wifi-Mokhaberat1🇮🇷",
-      "server": "188.114.98.168",
-      "server_port": 4198,
+      "server": "188.114.97.130",
+      "server_port": 3138,
       
       "local_address": [
           "172.16.0.2/32",
