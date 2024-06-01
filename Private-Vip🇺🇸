@@ -19,13 +19,13 @@
     "dns": {
         "servers": [
             {
-                "address": "tcp:\/\/185.228.168.9",
+                "address": "tcp:\/\/8.8.8.8",
                 "address_resolver": "dns-direct",
                 "strategy": "ipv4_only",
                 "tag": "dns-remote"
             },
             {
-                "address": "tcp:\/\/185.228.168.9",
+                 "address": "tcp:\/\/8.8.8.8",
                 "address_resolver": "dns-local",
                 "detour": "direct",
                 "strategy": "ipv4_only",
@@ -78,7 +78,7 @@
       "tag": "dns-in",
       "listen": "0.0.0.0",
       "listen_port": 6450,
-      "override_address": "1.1.1.1",
+      "override_address": "8.8.8.8",
       "override_port": 53
     }
   ],
