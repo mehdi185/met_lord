@@ -111,14 +111,14 @@
         "2606:4700:110:8732:875c:4484:9c56:c0fd/128"
       ],
       "private_key": "QOu5+515PSEX5k4W0kSmdwPHL/3BN4COFkdkycmmQWY=",
-      "server": "188.114.96.88",
-      "server_port": 903,
+      "server": "188.114.98.143",
+      "server_port": 8854,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [179,216,22],
       "mtu": 1280,
       "fake_packets": "5-13",
       "fake_packets_size": "300-351",
-      "fake_packets_delay": "50-150"
+      "fake_packets_delay": "1-20"
     },
     {
       "type": "wireguard",
@@ -129,14 +129,14 @@
         "2606:4700:110:8bbe:b890:57ef:db89:d8c/128"
       ],
       "private_key": "6Ell+y0ENQxX/8B1H5DjvIMQHnLDMdXtS25ZY5KiBkU=",
-      "server": "188.114.96.216",
+      "server": "188.114.96.49",
 
-      "server_port": 903,
+      "server_port": 8854,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": [241,217,85],  
         "mtu": 1120,
       "fake_packets_size": "350-351",
-      "fake_packets_delay": "50-150"
+      "fake_packets_delay": "1-20"
     },
     {
       "type": "dns",
@@ -151,7 +151,7 @@
       "tag": "direct-fragment",
       "tls_fragment": {
         "enabled": true,
-        "size": "350-350",
+        "size": "20-100",
         "sleep": "0-0"
       }
     },
