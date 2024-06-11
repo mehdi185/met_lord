@@ -1,6 +1,7 @@
 #profile-title: 🇮🇷irancell-unlimited🇩🇪
 #profile-update-interval: 1
 {
+
   "log": {
     "level": "warn",
     "output": "box.log",
