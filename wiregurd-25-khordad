@@ -1,6 +1,5 @@
-#profile-title: 🇮🇷irancell-unlimited🇩🇪
+#profile-title: Custom-IRancell
 #profile-update-interval: 1
-
 {
     "log": {
         "disabled": false,
@@ -20,13 +19,13 @@
     "dns": {
         "servers": [
             {
-                "address": "tcp:\/\/8.8.8.8",
+                "address": "tcp:\/\/185.228.168.9",
                 "address_resolver": "dns-direct",
                 "strategy": "ipv4_only",
                 "tag": "dns-remote"
             },
             {
-                "address": "tcp:\/\/8.8.8.8",
+                "address": "tcp:\/\/185.228.168.9",
                 "address_resolver": "dns-local",
                 "detour": "direct",
                 "strategy": "ipv4_only",
@@ -103,14 +102,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "IRancell"
+                "irancell "
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "IRancell"
+                "irancell "
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -134,17 +133,17 @@
         },
         {
             "type": "wireguard",
-            "server": "188.114.97.37",
+            "server": "188.214.97.103",
             "server_port": 8319,
             "local_address": [
                 "172.16.0.2\/32",
-                "2606:4700:110:86c2:b4f6:eacb:f1f3:c4fe\/128"
+                "2606:4700:110:89d2:61a6:e9fa:ef32:e33\/128"
             ],
-            "private_key": "4K2YaBga0\/q1ohpfVZsEIzUB6G4wTbzBmPN8wCvDR1Y=",
+            "private_key": "YK6nDMYqyp9uvE1OcPhyJQMvkWXHjFiOir4nI+Ip4ls=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5\/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1280,
-            "reserved": "l409",
-            "tag": "IRancell"
+            "reserved": "Z4Ox",
+            "tag": "irancell "
         }
     ],
     "route": {
