@@ -20,13 +20,13 @@
     "dns": {
         "servers": [
             {
-                "address": "tcp:\/\/185.228.168.9",
+                "address": "udp:\/\/8.8.8.8",
                 "address_resolver": "dns-direct",
                 "strategy": "ipv4_only",
                 "tag": "dns-remote"
             },
             {
-                "address": "tcp:\/\/185.228.168.9",
+                "address": "udp:\/\/8.8.8.8",
                 "address_resolver": "dns-local",
                 "detour": "direct",
                 "strategy": "ipv4_only",
