@@ -22,14 +22,14 @@
             {
                 "address": "udp:\/\/8.8.8.8",
                 "address_resolver": "dns-direct",
-                "strategy": "ipv4_only",
+                "strategy": "ipv6_only",
                 "tag": "dns-remote"
             },
             {
                 "address": "udp:\/\/8.8.8.8",
                 "address_resolver": "dns-local",
                 "detour": "direct",
-                "strategy": "ipv4_only",
+                "strategy": "ipv6_only",
                 "tag": "dns-direct"
             },
             {
