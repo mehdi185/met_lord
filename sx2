@@ -103,14 +103,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "Tel : @Bird_Xray IRnacell "
+                "Tel : @Bird_Xray⭐IRnacell "
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "Tel : @Bird_Xray IRnacell "
+                "Tel : @Bird_Xray⭐IRnacell "
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
