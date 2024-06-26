@@ -61,7 +61,7 @@
             }
         ],
         "reverse_mapping": true,
-        "strategy": "ipv4_only",
+        "strategy": "ipv6_only",
         "independent_cache": true
     },
     "inbounds": [
