@@ -20,16 +20,16 @@
     "dns": {
         "servers": [
             {
-                "address": "udp:\/\/8.8.8.8",
+                "address": "tcp:\/\/185.228.168.9",
                 "address_resolver": "dns-direct",
-                "strategy": "ipv6_only",
+                "strategy": "ipv4_only",
                 "tag": "dns-remote"
             },
             {
-                "address": "udp:\/\/8.8.8.8",
+                "address": "tcp:\/\/185.228.168.9",
                 "address_resolver": "dns-local",
                 "detour": "direct",
-                "strategy": "ipv6_only",
+                "strategy": "ipv4_only",
                 "tag": "dns-direct"
             },
             {
@@ -61,7 +61,7 @@
             }
         ],
         "reverse_mapping": true,
-        "strategy": "ipv6_only",
+        "strategy": "ipv4_only",
         "independent_cache": true
     },
     "inbounds": [
