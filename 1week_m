@@ -1,3 +1,6 @@
+#profile-title: 1weektest
+#profile-update-interval: 1
+
 vless://085fc8e1-99be-496b-bc8d-16e7dc5884e5@cf.090227.xyz:443?security=tls&sni=TG.CMLiussss.kozow.com&alpn=http/1.1&fp=random&type=ws&path=/?proxyip%3Dus.ipdb.rr.nu&host=TG.CMLiussss.kozow.com&encryption=none#@Bird-Xray%F0%9F%87%A9%F0%9F%87%AA%203
 vless://085fc8e1-99be-496b-bc8d-16e7dc5884e5@103.169.142.192:443?security=tls&sni=TG.CMLiussss.dns-dynamic.net&fp=random&type=ws&path=/?proxyip%3Dproxyip.oracle.fxxk.dedyn.io&host=TG.CMLiussss.dns-dynamic.net&encryption=none#@Bird-Xray%20%F0%9F%9A%80
 vmess://eyJhZGQiOiI5NC4xNzYuMTgzLjUiLCJhaWQiOiIwIiwiaG9zdCI6InNlcnZlci0wNS5jb20iLCJpZCI6Ijk1YmM5MDJhLTllZjMtNDhiMi1hNThlLWY3YWQxZTNmMGFiNCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zZXJ2ZXItMDUiLCJwb3J0IjoiNDQzIiwicHMiOiJAQmlyZC1YcmF5IPCfmoBJUmFuY2VsbCAxIiwic2N5IjoiYXV0byIsInNuaSI6Imdjb3JlLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
