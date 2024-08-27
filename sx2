@@ -1,5 +1,6 @@
-#profile-title: Tel: @Bird_xray⭐IRancell
-#profile-update-interval: 3
+//ta_3_mehr
+#profile-title: 🇮🇷irancell-unlimited🇩🇪
+#profile-update-interval: 1
 
 {
     "log": {
@@ -20,13 +21,13 @@
     "dns": {
         "servers": [
             {
-                "address": "tcp:\/\/185.228.168.9",
+                "address": "tcp:\/\/8.8.8.8",
                 "address_resolver": "dns-direct",
                 "strategy": "ipv4_only",
                 "tag": "dns-remote"
             },
             {
-                "address": "tcp:\/\/185.228.168.9",
+                "address": "tcp:\/\/8.8.8.8",
                 "address_resolver": "dns-local",
                 "detour": "direct",
                 "strategy": "ipv4_only",
@@ -103,14 +104,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "Tel : @Bird_Xray-IRancell"
+                "IRancell"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "Tel : @Bird_Xray-IRancell"
+                "IRancell"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -134,17 +135,17 @@
         },
         {
             "type": "wireguard",
-            "server": "188.114.97.37",
+            "server": "188.114.99.163",
             "server_port": 8319,
             "local_address": [
                 "172.16.0.2\/32",
-                "2606:4700:110:81e7:8c0b:c1a6:3a9f:509a\/128"
+                "2606:4700:110:86c2:b4f6:eacb:f1f3:c4fe\/128"
             ],
-            "private_key": "MBTyDjrtCyqZvc+3TodwtWAeasaMjlC23yDH\/pRBl18=",
+            "private_key": "4K2YaBga0\/q1ohpfVZsEIzUB6G4wTbzBmPN8wCvDR1Y=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5\/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1280,
-            "reserved": "GPJD",
-            "tag": "Tel : @Bird_Xray-IRancell"
+            "reserved": "l409",
+            "tag": "IRancell"
         }
     ],
     "route": {
